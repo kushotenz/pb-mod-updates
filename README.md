@@ -181,7 +181,7 @@ On the Discord server:
 
 ## Credits
 
-**PokeBrawl is made by xjoje6 and kusho**, with [Godot Engine](https://godotengine.org). It stands on other people's work:
+**PokeBrawl: original by xjoje6, rebuilt and expanded by kusho**, with [Godot Engine](https://godotengine.org). It stands on other people's work:
 
 - **Cobblemon** ([gitlab.com/cable-mc/cobblemon](https://gitlab.com/cable-mc/cobblemon)), by the Cobblemon team: the Pokémon
   models, animations and textures (CC BY-NC 3.0, adapted), move effects, sounds, cries and
