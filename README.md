@@ -1,8 +1,8 @@
 # PokeBrawl
 
 **Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and Cobbleverse.
-88 Pokémon, 39 Mega Evolutions and battle forms, 6 arenas: against the AI, 1 vs 1 online,
-or a free-for-all for up to 4 players.
+83 Pokémon, 37 Mega Evolutions and battle forms, 6 arenas: against the AI, 1 vs 1 online,
+or a free-for-all for up to 4 players. Coming soon: Eternatus, Giratina, Palkia, Dialga, Necrozma.
 
 PokeBrawl is a free, non-profit fan project. This repository holds the game's builds: the
 game keeps itself up to date from here.
@@ -22,16 +22,17 @@ Inside the zip: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.txt
 
 ## What is in
 
-- **88 Pokémon** (the full list is below), each with its own model, animations, cry and
+- **83 Pokémon** (the full list is below), each with its own model, animations, cry and
   way of moving: speed, jumps, dodges and, for many, flight.
 - **224 moves and 61 abilities** from the games. Pick each Pokémon's four moves and
   its ability from what it learns; every move shows its power, cooldown, reach and timings.
 - **Mega Evolution:** deal damage to fill the Mega bar, then Mega Evolve once per battle for
-  20 seconds, with its own cinematic. 39 forms, among them both Charizard and Mewtwo X/Y, the
-  Legends Z-A Megas (Garchomp Z, Lucario Z, Greninja, Dragonite, Chandelure...), Eternamax
-  Eternatus, Ultra Necrozma and Armored Mewtwo.
-- **Forms picked in the lobby:** 9 forms in all, e.g. Deoxys' four formes, Urshifu's two styles,
-  the Origin formes of Giratina, Palkia and Dialga, Necrozma's Dusk Mane and Dawn Wings.
+  20 seconds, with its own cinematic. 37 forms, among them both Charizard and Mewtwo X/Y, the
+  Legends Z-A Megas (Garchomp Z, Lucario Z, Greninja, Dragonite, Chandelure...), Armored
+  Mewtwo and Mega Rayquaza.
+- **Forms picked in the lobby:** 4 forms in all, e.g. Deoxys' four formes and Urshifu's two styles.
+- **Coming soon:** Eternatus, Giratina, Palkia, Dialga, Necrozma, with the Origin formes, Necrozma's Dusk Mane, Dawn Wings and
+  Ultra Necrozma, and Eternamax Eternatus. You can already see them on the wall.
 - **Teams of three** with switching, a **random team** pick (hidden until the battle), and
   **shiny** Pokémon: every battle one of your team has a 1 in 30 chance to come out shiny.
 - **Ditto** with its own fifth move, Transform: it becomes an exact copy of its rival.
@@ -72,7 +73,7 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 ## The roster
 
 <details>
-<summary><b>All 88 Pokémon</b>, with their forms and Mega Evolutions (click to open)</summary>
+<summary><b>All 83 Pokémon</b> (+ 5 coming soon), with their forms and Mega Evolutions (click to open)</summary>
 
 | # | Pokémon | Types | Forms (picked in the lobby) | Mega Evolution / battle forms |
 |---|---|---|---|---|
@@ -156,14 +157,14 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 78 | **Oshawott** | Water |  |  |
 | 79 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
 | 80 | **Toucannon** | Normal / Flying |  |  |
-| 81 | **Eternatus** | Poison / Dragon |  | Eternamax Eternatus |
-| 82 | **Tinkaton** | Fairy / Steel |  |  |
-| 83 | **Darkrai** | Dark |  | Mega Darkrai |
-| 84 | **Giratina** | Ghost / Dragon | Origin |  |
-| 85 | **Palkia** | Water / Dragon | Origin |  |
-| 86 | **Dialga** | Steel / Dragon | Origin |  |
-| 87 | **Necrozma** | Psychic | Dusk Mane, Dawn Wings | Ultra Necrozma |
-| 88 | **Miraidon** | Electric / Dragon |  |  |
+| 81 | **Tinkaton** | Fairy / Steel |  |  |
+| 82 | **Darkrai** | Dark |  | Mega Darkrai |
+| 83 | **Miraidon** | Electric / Dragon |  |  |
+| - | **Eternatus** · *coming soon* | Poison / Dragon |  | Eternamax Eternatus |
+| - | **Giratina** · *coming soon* | Ghost / Dragon | Origin |  |
+| - | **Palkia** · *coming soon* | Water / Dragon | Origin |  |
+| - | **Dialga** · *coming soon* | Steel / Dragon | Origin |  |
+| - | **Necrozma** · *coming soon* | Psychic | Dusk Mane, Dawn Wings | Ultra Necrozma |
 
 </details>
 
