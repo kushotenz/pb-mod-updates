@@ -9,16 +9,29 @@ game keeps itself up to date from here.
 
 ## Download
 
-From the [latest release](https://github.com/kushotenz/pb-mod-updates/releases/latest):
+All downloads are on the [latest release](https://github.com/kushotenz/pb-mod-updates/releases/latest) of this page.
 
-- **Windows** (10/11, 64-bit): get **`PokeBrawl.zip`**, unzip it into a folder of its own and open
-  `PokeBrawl.exe`. If Windows says "Windows protected your PC", choose *More info* > *Run anyway*.
-- **Mac** (Apple Silicon with macOS 13+, or Intel with macOS 11+): get **`PokeBrawl-mac.zip`**, unzip it
-  and move `PokeBrawl.app` into *Applications*. The first time, macOS can't check the developer:
-  open *System Settings* > *Privacy & Security* and click *Open Anyway* (once).
+### 🪟 Windows
 
-- **Updates install themselves:** at start the game checks for a new version and offers it;
-  one click downloads it, swaps the game and restarts it.
+**[Download PokeBrawl for Windows](https://github.com/kushotenz/pb-mod-updates/releases/latest/download/PokeBrawl.zip)** (Windows 10/11, 64-bit)
+
+1. Unzip `PokeBrawl.zip` into a folder of its own.
+2. Open `PokeBrawl.exe`.
+3. If Windows says "Windows protected your PC", choose *More info* > *Run anyway*.
+
+### 🍎 Mac
+
+**[Download PokeBrawl for Mac](https://github.com/kushotenz/pb-mod-updates/releases/latest/download/PokeBrawl-mac.zip)** (Apple Silicon with macOS 13+, or Intel with macOS 11+)
+
+1. Unzip `PokeBrawl-mac.zip` and move `PokeBrawl.app` into *Applications*.
+2. Open PokeBrawl.
+3. The first time, macOS can't check the developer: open *System Settings* > *Privacy & Security*
+   and click *Open Anyway* (only once).
+
+### Good to know
+
+- **Updates install themselves** (Windows and Mac): at start the game checks for a new version and
+  offers it; one click downloads it, swaps the game and restarts it.
 - Online, everyone needs the same version (the game warns you if not); Windows and Mac play together.
 - Keyboard and mouse or a gamepad (Xbox or PlayStation), also at the same time.
 
