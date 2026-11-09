@@ -2,7 +2,7 @@
 
 **Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and Cobbleverse.
 83 Pokémon, 37 Mega Evolutions and battle forms, 6 arenas: against the AI, 1 vs 1 online,
-or a free-for-all for up to 4 players. Coming soon: Eternatus, Giratina, Palkia, Dialga, Necrozma.
+or a free-for-all for up to 4 players.
 
 PokeBrawl is a free, non-profit fan project. This repository holds the game's builds: the
 game keeps itself up to date from here.
@@ -11,7 +11,7 @@ game keeps itself up to date from here.
 
 All downloads are on the [latest release](https://github.com/kushotenz/pb-mod-updates/releases/latest) of this page.
 
-### 🪟 Windows
+### Windows
 
 **[Download PokeBrawl for Windows](https://github.com/kushotenz/pb-mod-updates/releases/latest/download/PokeBrawl.zip)** (Windows 10/11, 64-bit)
 
@@ -19,7 +19,7 @@ All downloads are on the [latest release](https://github.com/kushotenz/pb-mod-up
 2. Open `PokeBrawl.exe`.
 3. If Windows says "Windows protected your PC", choose *More info* > *Run anyway*.
 
-### 🍎 Mac
+### Mac
 
 **[Download PokeBrawl for Mac](https://github.com/kushotenz/pb-mod-updates/releases/latest/download/PokeBrawl-mac.zip)** (Apple Silicon with macOS 13+, or Intel with macOS 11+)
 
