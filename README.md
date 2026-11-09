@@ -1,7 +1,7 @@
 # PokeBrawl
 
 **Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and Cobbleverse.
-83 Pokémon, 37 Mega Evolutions and battle forms, 6 arenas: against the AI, 1 vs 1 online,
+84 Pokémon, 37 Mega Evolutions and battle forms, 6 arenas: against the AI, 1 vs 1 online,
 or a free-for-all for up to 4 players.
 
 PokeBrawl is a free, non-profit fan project. This repository holds the game's builds: the
@@ -39,9 +39,9 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
 
 ## What is in
 
-- **83 Pokémon** (the full list is below), each with its own model, animations, cry and
+- **84 Pokémon** (the full list is below), each with its own model, animations, cry and
   way of moving: speed, jumps, dodges and, for many, flight.
-- **224 moves and 61 abilities** from the games. Pick each Pokémon's four moves and
+- **225 moves and 61 abilities** from the games. Pick each Pokémon's four moves and
   its ability from what it learns; every move shows its power, cooldown, reach and timings.
 - **Mega Evolution:** deal damage to fill the Mega bar, then Mega Evolve once per battle for
   20 seconds, with its own cinematic. 37 forms, among them both Charizard and Mewtwo X/Y, the
@@ -90,7 +90,7 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 ## The roster
 
 <details>
-<summary><b>All 83 Pokémon</b> (+ 5 coming soon), with their forms and Mega Evolutions (click to open)</summary>
+<summary><b>All 84 Pokémon</b> (+ 5 coming soon), with their forms and Mega Evolutions (click to open)</summary>
 
 | # | Pokémon | Types | Forms (picked in the lobby) | Mega Evolution / battle forms |
 |---|---|---|---|---|
@@ -124,59 +124,60 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 28 | **Gliscor** | Ground / Flying |  |  |
 | 29 | **Mamoswine** | Ice / Ground |  |  |
 | 30 | **Chandelure** | Ghost / Fire |  | Mega Chandelure |
-| 31 | **Armarouge** | Fire / Psychic |  |  |
-| 32 | **Bellibolt** | Electric |  |  |
-| 33 | **Vanilluxe** | Ice |  |  |
-| 34 | **Marshadow** | Fighting / Ghost |  |  |
-| 35 | **Raichu** | Electric |  | Mega Raichu X, Mega Raichu Y |
-| 36 | **Nidoking** | Poison / Ground |  |  |
-| 37 | **Gyarados** | Water / Flying |  | Mega Gyarados |
-| 38 | **Electivire** | Electric |  |  |
-| 39 | **Crobat** | Poison / Flying |  |  |
-| 40 | **Sceptile** | Grass |  | Mega Sceptile |
-| 41 | **Blaziken** | Fire / Fighting |  | Mega Blaziken |
-| 42 | **Crawdaunt** | Water / Dark |  |  |
-| 43 | **Empoleon** | Water / Steel |  |  |
-| 44 | **Staraptor** | Normal / Flying |  | Mega Staraptor |
-| 45 | **Roserade** | Grass / Poison |  |  |
-| 46 | **Toxicroak** | Poison / Fighting |  |  |
-| 47 | **Weavile** | Dark / Ice |  |  |
-| 48 | **Serperior** | Grass |  |  |
-| 49 | **Samurott** | Water |  |  |
-| 50 | **Seismitoad** | Water / Ground |  |  |
-| 51 | **Conkeldurr** | Fighting |  |  |
-| 52 | **Krookodile** | Ground / Dark |  |  |
-| 53 | **Zoroark** | Dark |  |  |
-| 54 | **Haxorus** | Dragon |  |  |
-| 55 | **Hydreigon** | Dark / Dragon |  |  |
-| 56 | **Volcarona** | Bug / Fire |  |  |
-| 57 | **Noivern** | Flying / Dragon |  |  |
-| 58 | **Yveltal** | Dark / Flying |  |  |
-| 59 | **Golisopod** | Bug / Water |  | Mega Golisopod |
-| 60 | **Naganadel** | Poison / Dragon |  |  |
-| 61 | **Kingambit** | Dark / Steel |  |  |
-| 62 | **Mew** | Psychic |  |  |
-| 63 | **Rillaboom** | Grass |  |  |
-| 64 | **Urshifu** | Fighting / Dark | Rapid Strike |  |
-| 65 | **Deoxys** | Psychic | Attack, Defense, Speed |  |
-| 66 | **Latios** | Dragon / Psychic |  | Mega Latios |
-| 67 | **Salamence** | Dragon / Flying |  | Mega Salamence |
-| 68 | **Sharpedo** | Water / Dark |  | Mega Sharpedo |
-| 69 | **Aerodactyl** | Rock / Flying |  | Mega Aerodactyl |
-| 70 | **Ditto** | Normal |  |  |
-| 71 | **Hitmonchan** | Fighting |  |  |
-| 72 | **Hitmonlee** | Fighting |  |  |
-| 73 | **Magnezone** | Electric / Steel |  |  |
-| 74 | **Drapion** | Poison / Dark |  |  |
-| 75 | **Gallade** | Psychic / Fighting |  | Mega Gallade |
-| 76 | **Froslass** | Ice / Ghost |  | Mega Froslass |
-| 77 | **Dusknoir** | Ghost |  |  |
-| 78 | **Oshawott** | Water |  |  |
-| 79 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
-| 80 | **Toucannon** | Normal / Flying |  |  |
-| 81 | **Tinkaton** | Fairy / Steel |  |  |
-| 82 | **Darkrai** | Dark |  | Mega Darkrai |
-| 83 | **Miraidon** | Electric / Dragon |  |  |
+| 31 | **Blacephalon** | Fire / Ghost |  |  |
+| 32 | **Armarouge** | Fire / Psychic |  |  |
+| 33 | **Bellibolt** | Electric |  |  |
+| 34 | **Vanilluxe** | Ice |  |  |
+| 35 | **Marshadow** | Fighting / Ghost |  |  |
+| 36 | **Raichu** | Electric |  | Mega Raichu X, Mega Raichu Y |
+| 37 | **Nidoking** | Poison / Ground |  |  |
+| 38 | **Gyarados** | Water / Flying |  | Mega Gyarados |
+| 39 | **Electivire** | Electric |  |  |
+| 40 | **Crobat** | Poison / Flying |  |  |
+| 41 | **Sceptile** | Grass |  | Mega Sceptile |
+| 42 | **Blaziken** | Fire / Fighting |  | Mega Blaziken |
+| 43 | **Crawdaunt** | Water / Dark |  |  |
+| 44 | **Empoleon** | Water / Steel |  |  |
+| 45 | **Staraptor** | Normal / Flying |  | Mega Staraptor |
+| 46 | **Roserade** | Grass / Poison |  |  |
+| 47 | **Toxicroak** | Poison / Fighting |  |  |
+| 48 | **Weavile** | Dark / Ice |  |  |
+| 49 | **Serperior** | Grass |  |  |
+| 50 | **Samurott** | Water |  |  |
+| 51 | **Seismitoad** | Water / Ground |  |  |
+| 52 | **Conkeldurr** | Fighting |  |  |
+| 53 | **Krookodile** | Ground / Dark |  |  |
+| 54 | **Zoroark** | Dark |  |  |
+| 55 | **Haxorus** | Dragon |  |  |
+| 56 | **Hydreigon** | Dark / Dragon |  |  |
+| 57 | **Volcarona** | Bug / Fire |  |  |
+| 58 | **Noivern** | Flying / Dragon |  |  |
+| 59 | **Yveltal** | Dark / Flying |  |  |
+| 60 | **Golisopod** | Bug / Water |  | Mega Golisopod |
+| 61 | **Naganadel** | Poison / Dragon |  |  |
+| 62 | **Kingambit** | Dark / Steel |  |  |
+| 63 | **Mew** | Psychic |  |  |
+| 64 | **Rillaboom** | Grass |  |  |
+| 65 | **Urshifu** | Fighting / Dark | Rapid Strike |  |
+| 66 | **Deoxys** | Psychic | Attack, Defense, Speed |  |
+| 67 | **Latios** | Dragon / Psychic |  | Mega Latios |
+| 68 | **Salamence** | Dragon / Flying |  | Mega Salamence |
+| 69 | **Sharpedo** | Water / Dark |  | Mega Sharpedo |
+| 70 | **Aerodactyl** | Rock / Flying |  | Mega Aerodactyl |
+| 71 | **Ditto** | Normal |  |  |
+| 72 | **Hitmonchan** | Fighting |  |  |
+| 73 | **Hitmonlee** | Fighting |  |  |
+| 74 | **Magnezone** | Electric / Steel |  |  |
+| 75 | **Drapion** | Poison / Dark |  |  |
+| 76 | **Gallade** | Psychic / Fighting |  | Mega Gallade |
+| 77 | **Froslass** | Ice / Ghost |  | Mega Froslass |
+| 78 | **Dusknoir** | Ghost |  |  |
+| 79 | **Oshawott** | Water |  |  |
+| 80 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
+| 81 | **Toucannon** | Normal / Flying |  |  |
+| 82 | **Tinkaton** | Fairy / Steel |  |  |
+| 83 | **Darkrai** | Dark |  | Mega Darkrai |
+| 84 | **Miraidon** | Electric / Dragon |  |  |
 | - | **Eternatus** · *coming soon* | Poison / Dragon |  | Eternamax Eternatus |
 | - | **Giratina** · *coming soon* | Ghost / Dragon | Origin |  |
 | - | **Palkia** · *coming soon* | Water / Dragon | Origin |  |
