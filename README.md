@@ -9,16 +9,20 @@ game keeps itself up to date from here.
 
 ## Download
 
-Get **`PokeBrawl.zip`** from the [latest release](https://github.com/kushotenz/pb-mod-updates/releases/latest)
-(Windows, 64-bit), unzip it into a folder of its own and open `PokeBrawl.exe`.
+From the [latest release](https://github.com/kushotenz/pb-mod-updates/releases/latest):
 
-- If Windows says "Windows protected your PC", choose *More info* > *Run anyway*.
+- **Windows** (10/11, 64-bit): get **`PokeBrawl.zip`**, unzip it into a folder of its own and open
+  `PokeBrawl.exe`. If Windows says "Windows protected your PC", choose *More info* > *Run anyway*.
+- **Mac** (Apple Silicon with macOS 13+, or Intel with macOS 11+): get **`PokeBrawl-mac.zip`**, unzip it
+  and move `PokeBrawl.app` into *Applications*. The first time, macOS can't check the developer:
+  open *System Settings* > *Privacy & Security* and click *Open Anyway* (once).
+
 - **Updates install themselves:** at start the game checks for a new version and offers it;
   one click downloads it, swaps the game and restarts it.
-- Online, everyone needs the same version (the game warns you if not).
+- Online, everyone needs the same version (the game warns you if not); Windows and Mac play together.
 - Keyboard and mouse or a gamepad (Xbox or PlayStation), also at the same time.
 
-Inside the zip: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.txt`.
+Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.txt`.
 
 ## What is in
 
