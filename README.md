@@ -1,7 +1,7 @@
 # PokeBrawl
 
 **Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and Cobbleverse.
-84 Pokémon, 37 Mega Evolutions and battle forms, 6 arenas: against the AI, 1 vs 1 online,
+84 Pokémon, 37 Mega Evolutions and battle forms, 8 arenas: against the AI, 1 vs 1 online,
 or a free-for-all for up to 4 players.
 
 PokeBrawl is a free, non-profit fan project. This repository holds the game's builds: the
@@ -41,7 +41,7 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
 
 - **84 Pokémon** (the full list is below), each with its own model, animations, cry and
   way of moving: speed, jumps, dodges and, for many, flight.
-- **225 moves and 61 abilities** from the games. Pick each Pokémon's four moves and
+- **225 moves and 62 abilities** from the games. Pick each Pokémon's four moves and
   its ability from what it learns; every move shows its power, cooldown, reach and timings.
 - **Mega Evolution:** deal damage to fill the Mega bar, then Mega Evolve once per battle for
   20 seconds, with its own cinematic. 37 forms, among them both Charizard and Mewtwo X/Y, the
@@ -55,13 +55,15 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
 - **Ditto** with its own fifth move, Transform: it becomes an exact copy of its rival.
 - **Modes:** Battle against the AI (easy, normal, hard), Training, **Online 1 vs 1** and
   **Online free-for-all** for up to 4 players.
-- **6 arenas:**
+- **8 arenas:**
   - **Night Stadium:** A Galar stadium at night, packed and walled all round: nobody falls off.
   - **Grand Stadium:** The Night Stadium at almost five times the size, playable right up to the wall: room for big Pokémon and free-for-alls.
   - **Floating Stadium:** A platform over the void. Whoever is pushed off the edge is out.
   - **League Stadium:** The League's coliseum. The field closes in bit by bit: outside it you lose HP.
   - **Valley Meadow:** Out in the open by day: a wide meadow in a valley, a lake with a waterfall, woods and mountains. As big as the Grand Stadium.
   - **Orbit Station:** A battle platform floating in space, walled in by an energy barrier. Every 30 s a comet shower rains down: watch the marks and dodge.
+  - **Magma Caldera:** A basalt island in a lake of lava. The lava channels in the floor glow before they burst: get off them. And now and then the volcano erupts and rains lava bombs.
+  - **Frostfall Glacier:** A frozen lake under the northern lights. Thin ice creaks and cracks before it breaks: step off it or fall into the freezing water. And now and then a blizzard sweeps in, pushes everyone with the wind and drops icicles.
 - **Status conditions** as in the games, adapted to real time (burn, paralysis, poison, bad
   poison, sleep, freeze), confusion, stat changes and **weather** (sun, rain, sandstorm, snow),
   with the abilities that use them.
@@ -108,7 +110,7 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 12 | **Alakazam** | Psychic |  | Mega Alakazam |
 | 13 | **Bellsprout** | Grass / Poison |  |  |
 | 14 | **Dragonite** | Dragon / Flying |  | Mega Dragonite |
-| 15 | **Mewtwo** | Psychic |  | Armored Mewtwo, Mega Mewtwo X, Mega Mewtwo Y |
+| 15 | **Mewtwo** | Psychic |  | Mega Mewtwo X, Mega Mewtwo Y, Armored Mewtwo |
 | 16 | **Tyranitar** | Rock / Dark |  | Mega Tyranitar |
 | 17 | **Lugia** | Psychic / Flying |  |  |
 | 18 | **Ho-Oh** | Fire / Flying |  |  |
@@ -158,8 +160,8 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 62 | **Kingambit** | Dark / Steel |  |  |
 | 63 | **Mew** | Psychic |  |  |
 | 64 | **Rillaboom** | Grass |  |  |
-| 65 | **Urshifu** | Fighting / Dark | Rapid Strike |  |
-| 66 | **Deoxys** | Psychic | Attack, Defense, Speed |  |
+| 65 | **Urshifu** | Fighting / Dark | Urshifu |  |
+| 66 | **Deoxys** | Psychic | Deoxys, Deoxys, Deoxys |  |
 | 67 | **Latios** | Dragon / Psychic |  | Mega Latios |
 | 68 | **Salamence** | Dragon / Flying |  | Mega Salamence |
 | 69 | **Sharpedo** | Water / Dark |  | Mega Sharpedo |
@@ -179,10 +181,10 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 83 | **Darkrai** | Dark |  | Mega Darkrai |
 | 84 | **Miraidon** | Electric / Dragon |  |  |
 | - | **Eternatus** · *coming soon* | Poison / Dragon |  | Eternamax Eternatus |
-| - | **Giratina** · *coming soon* | Ghost / Dragon | Origin |  |
-| - | **Palkia** · *coming soon* | Water / Dragon | Origin |  |
-| - | **Dialga** · *coming soon* | Steel / Dragon | Origin |  |
-| - | **Necrozma** · *coming soon* | Psychic | Dusk Mane, Dawn Wings | Ultra Necrozma |
+| - | **Giratina** · *coming soon* | Ghost / Dragon | Giratina |  |
+| - | **Palkia** · *coming soon* | Water / Dragon | Palkia |  |
+| - | **Dialga** · *coming soon* | Steel / Dragon | Dialga |  |
+| - | **Necrozma** · *coming soon* | Psychic | Necrozma, Necrozma | Ultra Necrozma |
 
 </details>
 
