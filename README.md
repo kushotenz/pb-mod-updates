@@ -1,7 +1,7 @@
 # PokeBrawl
 
 **Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and Cobbleverse.
-84 Pokémon, 37 Mega Evolutions and battle forms, 8 arenas: against the AI, 1 vs 1 online,
+83 Pokémon, 37 Mega Evolutions and battle forms, 8 arenas: against the AI, 1 vs 1 online,
 or a free-for-all for up to 4 players.
 
 PokeBrawl is a free, non-profit fan project. This repository holds the game's builds: the
@@ -39,17 +39,19 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
 
 ## What is in
 
-- **84 Pokémon** (the full list is below), each with its own model, animations, cry and
+- **83 Pokémon** (the full list is below), each with its own model, animations, cry and
   way of moving: speed, jumps, dodges and, for many, flight.
 - **225 moves and 62 abilities** from the games. Pick each Pokémon's four moves and
   its ability from what it learns; every move shows its power, cooldown, reach and timings.
 - **Mega Evolution:** deal damage to fill the Mega bar, then Mega Evolve once per battle for
-  20 seconds, with its own cinematic. 37 forms, among them both Charizard and Mewtwo X/Y, the
+  20 seconds after a 2-second transformation. 37 forms, among them both Charizard and Mewtwo X/Y, the
   Legends Z-A Megas (Garchomp Z, Lucario Z, Greninja, Dragonite, Chandelure...), Armored
   Mewtwo and Mega Rayquaza.
 - **Forms picked in the lobby:** 4 forms in all, e.g. Deoxys' four formes and Urshifu's two styles.
-- **Coming soon:** Eternatus, Giratina, Palkia, Dialga, Necrozma, with the Origin formes, Necrozma's Dusk Mane, Dawn Wings and
-  Ultra Necrozma, and Eternamax Eternatus. You can already see them on the wall.
+- **Coming soon:** Dialga, Palkia, Giratina, Necrozma, Eternatus, with Ultra Necrozma and Eternamax Eternatus. You can already
+  see them on the wall.
+- **Block & Parry:** hold Block to guard, tap it just before a hit to parry and leave the attacker open.
+- **Languages:** English, Português (Brasil) and Español, picked on the first start.
 - **Teams of three** with switching, a **random team** pick (hidden until the battle), and
   **shiny** Pokémon: every battle one of your team has a 1 in 30 chance to come out shiny.
 - **Ditto** with its own fifth move, Transform: it becomes an exact copy of its rival.
@@ -92,7 +94,7 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 ## The roster
 
 <details>
-<summary><b>All 84 Pokémon</b> (+ 5 coming soon), with their forms and Mega Evolutions (click to open)</summary>
+<summary><b>All 83 Pokémon</b> (+ 5 coming soon), with their forms and Mega Evolutions (click to open)</summary>
 
 | # | Pokémon | Types | Forms (picked in the lobby) | Mega Evolution / battle forms |
 |---|---|---|---|---|
@@ -154,37 +156,36 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 56 | **Hydreigon** | Dark / Dragon |  |  |
 | 57 | **Volcarona** | Bug / Fire |  |  |
 | 58 | **Noivern** | Flying / Dragon |  |  |
-| 59 | **Yveltal** | Dark / Flying |  |  |
-| 60 | **Golisopod** | Bug / Water |  | Mega Golisopod |
-| 61 | **Naganadel** | Poison / Dragon |  |  |
-| 62 | **Kingambit** | Dark / Steel |  |  |
-| 63 | **Mew** | Psychic |  |  |
-| 64 | **Rillaboom** | Grass |  |  |
-| 65 | **Urshifu** | Fighting / Dark | Urshifu |  |
-| 66 | **Deoxys** | Psychic | Deoxys, Deoxys, Deoxys |  |
-| 67 | **Latios** | Dragon / Psychic |  | Mega Latios |
-| 68 | **Salamence** | Dragon / Flying |  | Mega Salamence |
-| 69 | **Sharpedo** | Water / Dark |  | Mega Sharpedo |
-| 70 | **Aerodactyl** | Rock / Flying |  | Mega Aerodactyl |
-| 71 | **Ditto** | Normal |  |  |
-| 72 | **Hitmonchan** | Fighting |  |  |
-| 73 | **Hitmonlee** | Fighting |  |  |
-| 74 | **Magnezone** | Electric / Steel |  |  |
-| 75 | **Drapion** | Poison / Dark |  |  |
-| 76 | **Gallade** | Psychic / Fighting |  | Mega Gallade |
-| 77 | **Froslass** | Ice / Ghost |  | Mega Froslass |
-| 78 | **Dusknoir** | Ghost |  |  |
-| 79 | **Oshawott** | Water |  |  |
-| 80 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
-| 81 | **Toucannon** | Normal / Flying |  |  |
-| 82 | **Tinkaton** | Fairy / Steel |  |  |
-| 83 | **Darkrai** | Dark |  | Mega Darkrai |
-| 84 | **Miraidon** | Electric / Dragon |  |  |
+| 59 | **Golisopod** | Bug / Water |  | Mega Golisopod |
+| 60 | **Naganadel** | Poison / Dragon |  |  |
+| 61 | **Kingambit** | Dark / Steel |  |  |
+| 62 | **Mew** | Psychic |  |  |
+| 63 | **Rillaboom** | Grass |  |  |
+| 64 | **Urshifu** | Fighting / Dark | Urshifu |  |
+| 65 | **Deoxys** | Psychic | Deoxys, Deoxys, Deoxys |  |
+| 66 | **Latios** | Dragon / Psychic |  | Mega Latios |
+| 67 | **Salamence** | Dragon / Flying |  | Mega Salamence |
+| 68 | **Sharpedo** | Water / Dark |  | Mega Sharpedo |
+| 69 | **Aerodactyl** | Rock / Flying |  | Mega Aerodactyl |
+| 70 | **Ditto** | Normal |  |  |
+| 71 | **Hitmonchan** | Fighting |  |  |
+| 72 | **Hitmonlee** | Fighting |  |  |
+| 73 | **Magnezone** | Electric / Steel |  |  |
+| 74 | **Drapion** | Poison / Dark |  |  |
+| 75 | **Gallade** | Psychic / Fighting |  | Mega Gallade |
+| 76 | **Froslass** | Ice / Ghost |  | Mega Froslass |
+| 77 | **Dusknoir** | Ghost |  |  |
+| 78 | **Oshawott** | Water |  |  |
+| 79 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
+| 80 | **Toucannon** | Normal / Flying |  |  |
+| 81 | **Tinkaton** | Fairy / Steel |  |  |
+| 82 | **Darkrai** | Dark |  | Mega Darkrai |
+| 83 | **Miraidon** | Electric / Dragon |  |  |
+| - | **Dialga** · *coming soon* | Steel / Dragon |  |  |
+| - | **Palkia** · *coming soon* | Water / Dragon |  |  |
+| - | **Giratina** · *coming soon* | Ghost / Dragon |  |  |
+| - | **Necrozma** · *coming soon* | Psychic |  | Ultra Necrozma |
 | - | **Eternatus** · *coming soon* | Poison / Dragon |  | Eternamax Eternatus |
-| - | **Giratina** · *coming soon* | Ghost / Dragon | Giratina |  |
-| - | **Palkia** · *coming soon* | Water / Dragon | Palkia |  |
-| - | **Dialga** · *coming soon* | Steel / Dragon | Dialga |  |
-| - | **Necrozma** · *coming soon* | Psychic | Necrozma, Necrozma | Ultra Necrozma |
 
 </details>
 
