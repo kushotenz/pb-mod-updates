@@ -1,7 +1,7 @@
 # PokeBrawl
 
 **Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and Cobbleverse.
-90 Pokémon, 38 Mega Evolutions and battle forms, 8 arenas: against the AI, 1 vs 1 online,
+238 Pokémon, 39 Mega Evolutions and battle forms, 9 arenas: against the AI, 1 vs 1 online,
 or a free-for-all for up to 4 players.
 
 PokeBrawl is a free, non-profit fan project. This repository holds the game's builds: the
@@ -39,15 +39,15 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
 
 ## What is in
 
-- **90 Pokémon** (the full list is below), each with its own model, animations, cry and
+- **238 Pokémon** (the full list is below), each with its own model, animations, cry and
   way of moving: speed, jumps, dodges and, for many, flight.
-- **229 moves and 65 abilities** from the games. Pick each Pokémon's four moves and
+- **253 moves and 85 abilities** from the games. Pick each Pokémon's four moves and
   its ability from what it learns; every move shows its power, cooldown, reach and timings.
 - **Mega Evolution:** deal damage to fill the Mega bar, then Mega Evolve once per battle for
-  20 seconds after a 2-second transformation. 38 forms, among them both Charizard and Mewtwo X/Y, the
+  20 seconds after a 2-second transformation. 39 forms, among them both Charizard and Mewtwo X/Y, the
   Legends Z-A Megas (Garchomp Z, Lucario Z, Greninja, Dragonite, Chandelure...), Armored
   Mewtwo and Mega Rayquaza.
-- **Forms picked in the lobby:** 4 forms in all, e.g. Deoxys' four formes and Urshifu's two styles.
+- **Forms picked in the lobby:** 6 forms in all, e.g. Deoxys' four formes and Urshifu's two styles.
 - **Coming soon:** Dialga, Palkia, Giratina, Necrozma, Eternatus, with Ultra Necrozma and Eternamax Eternatus. You can already
   see them on the wall.
 - **Block & Parry:** hold Block to guard, tap it just before a hit to parry and leave the attacker open.
@@ -57,7 +57,7 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
 - **Ditto** with its own fifth move, Transform: it becomes an exact copy of its rival.
 - **Modes:** Battle against the AI (easy, normal, hard), Training, **Online 1 vs 1** and
   **Online free-for-all** for up to 4 players.
-- **8 arenas:**
+- **9 arenas:**
   - **Night Stadium:** A Galar stadium at night, packed and walled all round: nobody falls off.
   - **Grand Stadium:** The Night Stadium at almost five times the size, playable right up to the wall: room for big Pokémon and free-for-alls.
   - **Floating Stadium:** A platform over the void. Whoever is pushed off the edge is out.
@@ -66,6 +66,7 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
   - **Orbit Station:** A battle platform floating in space, walled in by an energy barrier. Every 30 s a comet shower rains down: watch the marks and dodge.
   - **Magma Caldera:** A basalt island in a lake of lava. The lava channels in the floor glow before they burst: get off them. And now and then the volcano erupts and rains lava bombs.
   - **Frostfall Glacier:** A frozen lake under the northern lights. Thin ice creaks and cracks before it breaks: step off it or fall into the freezing water. And now and then a blizzard sweeps in, pushes everyone with the wind and drops icicles.
+  - **Mewtwo's Cave:** A crystal cave deep underground, ringed by mossy ledges and glowing crystals, misty water all round. No tricks here, just the fight. And on a rock out in the water, Mewtwo watches with its arms folded.
 - **Status conditions** as in the games, adapted to real time (burn, paralysis, poison, bad
   poison, sleep, freeze), confusion, stat changes and **weather** (sun, rain, sandstorm, snow),
   with the abilities that use them.
@@ -94,7 +95,7 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 ## The roster
 
 <details>
-<summary><b>All 90 Pokémon</b> (+ 5 coming soon), with their forms and Mega Evolutions (click to open)</summary>
+<summary><b>All 238 Pokémon</b> (+ 5 coming soon), with their forms and Mega Evolutions (click to open)</summary>
 
 | # | Pokémon | Types | Forms (picked in the lobby) | Mega Evolution / battle forms |
 |---|---|---|---|---|
@@ -130,64 +131,212 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 30 | **Chandelure** | Ghost / Fire |  | Mega Chandelure |
 | 31 | **Blacephalon** | Fire / Ghost |  |  |
 | 32 | **Armarouge** | Fire / Psychic |  |  |
-| 33 | **Sobble** | Water |  |  |
-| 34 | **Inteleon** | Water |  |  |
-| 35 | **Sprigatito** | Grass |  |  |
-| 36 | **Meowscarada** | Grass / Dark |  |  |
-| 37 | **Sableye** | Dark / Ghost |  | Mega Sableye |
-| 38 | **Ceruledge** | Fire / Ghost |  |  |
-| 39 | **Bellibolt** | Electric |  |  |
-| 40 | **Vanilluxe** | Ice |  |  |
-| 41 | **Marshadow** | Fighting / Ghost |  |  |
-| 42 | **Raichu** | Electric |  | Mega Raichu X, Mega Raichu Y |
-| 43 | **Nidoking** | Poison / Ground |  |  |
-| 44 | **Gyarados** | Water / Flying |  | Mega Gyarados |
-| 45 | **Electivire** | Electric |  |  |
-| 46 | **Crobat** | Poison / Flying |  |  |
-| 47 | **Sceptile** | Grass |  | Mega Sceptile |
-| 48 | **Blaziken** | Fire / Fighting |  | Mega Blaziken |
-| 49 | **Crawdaunt** | Water / Dark |  |  |
-| 50 | **Empoleon** | Water / Steel |  |  |
-| 51 | **Staraptor** | Normal / Flying |  | Mega Staraptor |
-| 52 | **Roserade** | Grass / Poison |  |  |
-| 53 | **Toxicroak** | Poison / Fighting |  |  |
-| 54 | **Weavile** | Dark / Ice |  |  |
-| 55 | **Serperior** | Grass |  |  |
-| 56 | **Samurott** | Water |  |  |
-| 57 | **Seismitoad** | Water / Ground |  |  |
-| 58 | **Conkeldurr** | Fighting |  |  |
-| 59 | **Krookodile** | Ground / Dark |  |  |
-| 60 | **Zoroark** | Dark |  |  |
-| 61 | **Haxorus** | Dragon |  |  |
-| 62 | **Hydreigon** | Dark / Dragon |  |  |
-| 63 | **Volcarona** | Bug / Fire |  |  |
-| 64 | **Noivern** | Flying / Dragon |  |  |
-| 65 | **Golisopod** | Bug / Water |  | Mega Golisopod |
-| 66 | **Naganadel** | Poison / Dragon |  |  |
-| 67 | **Kingambit** | Dark / Steel |  |  |
-| 68 | **Mew** | Psychic |  |  |
-| 69 | **Rillaboom** | Grass |  |  |
-| 70 | **Urshifu** | Fighting / Dark | Urshifu |  |
-| 71 | **Deoxys** | Psychic | Deoxys, Deoxys, Deoxys |  |
-| 72 | **Latios** | Dragon / Psychic |  | Mega Latios |
-| 73 | **Salamence** | Dragon / Flying |  | Mega Salamence |
-| 74 | **Sharpedo** | Water / Dark |  | Mega Sharpedo |
-| 75 | **Aerodactyl** | Rock / Flying |  | Mega Aerodactyl |
-| 76 | **Ditto** | Normal |  |  |
-| 77 | **Hitmonchan** | Fighting |  |  |
-| 78 | **Hitmonlee** | Fighting |  |  |
-| 79 | **Magnezone** | Electric / Steel |  |  |
-| 80 | **Drapion** | Poison / Dark |  |  |
-| 81 | **Gallade** | Psychic / Fighting |  | Mega Gallade |
-| 82 | **Froslass** | Ice / Ghost |  | Mega Froslass |
-| 83 | **Dusknoir** | Ghost |  |  |
-| 84 | **Oshawott** | Water |  |  |
-| 85 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
-| 86 | **Toucannon** | Normal / Flying |  |  |
-| 87 | **Tinkaton** | Fairy / Steel |  |  |
-| 88 | **Darkrai** | Dark |  | Mega Darkrai |
-| 89 | **Miraidon** | Electric / Dragon |  |  |
-| 90 | **Koraidon** | Fighting / Dragon |  |  |
+| 33 | **Primarina** | Water / Fairy |  |  |
+| 34 | **Zeraora** | Electric |  | Mega Zeraora |
+| 35 | **Sobble** | Water |  |  |
+| 36 | **Inteleon** | Water |  |  |
+| 37 | **Sprigatito** | Grass |  |  |
+| 38 | **Meowscarada** | Grass / Dark |  |  |
+| 39 | **Sableye** | Dark / Ghost |  | Mega Sableye |
+| 40 | **Ceruledge** | Fire / Ghost |  |  |
+| 41 | **Bellibolt** | Electric |  |  |
+| 42 | **Vanilluxe** | Ice |  |  |
+| 43 | **Marshadow** | Fighting / Ghost |  |  |
+| 44 | **Raichu** | Electric |  | Mega Raichu X, Mega Raichu Y |
+| 45 | **Nidoking** | Poison / Ground |  |  |
+| 46 | **Gyarados** | Water / Flying |  | Mega Gyarados |
+| 47 | **Electivire** | Electric |  |  |
+| 48 | **Crobat** | Poison / Flying |  |  |
+| 49 | **Sceptile** | Grass |  | Mega Sceptile |
+| 50 | **Blaziken** | Fire / Fighting |  | Mega Blaziken |
+| 51 | **Crawdaunt** | Water / Dark |  |  |
+| 52 | **Empoleon** | Water / Steel |  |  |
+| 53 | **Staraptor** | Normal / Flying |  | Mega Staraptor |
+| 54 | **Roserade** | Grass / Poison |  |  |
+| 55 | **Toxicroak** | Poison / Fighting |  |  |
+| 56 | **Weavile** | Dark / Ice |  |  |
+| 57 | **Serperior** | Grass |  |  |
+| 58 | **Samurott** | Water |  |  |
+| 59 | **Seismitoad** | Water / Ground |  |  |
+| 60 | **Conkeldurr** | Fighting |  |  |
+| 61 | **Krookodile** | Ground / Dark |  |  |
+| 62 | **Zoroark** | Dark | Zoroark |  |
+| 63 | **Talonflame** | Fire / Flying |  |  |
+| 64 | **Mimikyu** | Ghost / Fairy |  |  |
+| 65 | **Escavalier** | Bug / Steel |  |  |
+| 66 | **Tsareena** | Grass |  |  |
+| 67 | **Breloom** | Grass / Fighting |  |  |
+| 68 | **Flygon** | Ground / Dragon |  |  |
+| 69 | **Altaria** | Dragon / Flying |  |  |
+| 70 | **Decidueye** | Grass / Ghost | Decidueye |  |
+| 71 | **Mienshao** | Fighting |  |  |
+| 72 | **Jirachi** | Steel / Psychic |  |  |
+| 73 | **Munchlax** | Normal |  |  |
+| 74 | **Wartortle** | Water |  |  |
+| 75 | **Squirtle** | Water |  |  |
+| 76 | **Ivysaur** | Grass / Poison |  |  |
+| 77 | **Bulbasaur** | Grass / Poison |  |  |
+| 78 | **Haunter** | Ghost / Poison |  |  |
+| 79 | **Gastly** | Ghost / Poison |  |  |
+| 80 | **Gabite** | Dragon / Ground |  |  |
+| 81 | **Gible** | Dragon / Ground |  |  |
+| 82 | **Scyther** | Bug / Flying |  |  |
+| 83 | **Growlithe** | Fire |  |  |
+| 84 | **Kadabra** | Psychic |  |  |
+| 85 | **Abra** | Psychic |  |  |
+| 86 | **Dragonair** | Dragon |  |  |
+| 87 | **Dratini** | Dragon |  |  |
+| 88 | **Pupitar** | Rock / Ground |  |  |
+| 89 | **Larvitar** | Rock / Ground |  |  |
+| 90 | **Lombre** | Water / Grass |  |  |
+| 91 | **Lotad** | Water / Grass |  |  |
+| 92 | **Kirlia** | Psychic / Fairy |  |  |
+| 93 | **Ralts** | Psychic / Fairy |  |  |
+| 94 | **Metang** | Steel / Psychic |  |  |
+| 95 | **Beldum** | Steel / Psychic |  |  |
+| 96 | **Monferno** | Fire / Fighting |  |  |
+| 97 | **Chimchar** | Fire |  |  |
+| 98 | **Buneary** | Normal |  |  |
+| 99 | **Misdreavus** | Ghost |  |  |
+| 100 | **Murkrow** | Dark / Flying |  |  |
+| 101 | **Gligar** | Ground / Flying |  |  |
+| 102 | **Piloswine** | Ice / Ground |  |  |
+| 103 | **Swinub** | Ice / Ground |  |  |
+| 104 | **Lampent** | Ghost / Fire |  |  |
+| 105 | **Litwick** | Ghost / Fire |  |  |
+| 106 | **Charcadet** | Fire |  |  |
+| 107 | **Brionne** | Water |  |  |
+| 108 | **Popplio** | Water |  |  |
+| 109 | **Drizzile** | Water |  |  |
+| 110 | **Floragato** | Grass |  |  |
+| 111 | **Tadbulb** | Electric |  |  |
+| 112 | **Vanillish** | Ice |  |  |
+| 113 | **Vanillite** | Ice |  |  |
+| 114 | **Nidorino** | Poison |  |  |
+| 115 | **Nidoran-M** | Poison |  |  |
+| 116 | **Magikarp** | Water |  |  |
+| 117 | **Electabuzz** | Electric |  |  |
+| 118 | **Elekid** | Electric |  |  |
+| 119 | **Golbat** | Poison / Flying |  |  |
+| 120 | **Zubat** | Poison / Flying |  |  |
+| 121 | **Grovyle** | Grass |  |  |
+| 122 | **Treecko** | Grass |  |  |
+| 123 | **Combusken** | Fire / Fighting |  |  |
+| 124 | **Torchic** | Fire |  |  |
+| 125 | **Corphish** | Water |  |  |
+| 126 | **Prinplup** | Water |  |  |
+| 127 | **Piplup** | Water |  |  |
+| 128 | **Staravia** | Normal / Flying |  |  |
+| 129 | **Starly** | Normal / Flying |  |  |
+| 130 | **Roselia** | Grass / Poison |  |  |
+| 131 | **Budew** | Grass / Poison |  |  |
+| 132 | **Croagunk** | Poison / Fighting |  |  |
+| 133 | **Sneasel** | Dark / Ice |  |  |
+| 134 | **Servine** | Grass |  |  |
+| 135 | **Snivy** | Grass |  |  |
+| 136 | **Dewott** | Water |  |  |
+| 137 | **Palpitoad** | Water / Ground |  |  |
+| 138 | **Tympole** | Water |  |  |
+| 139 | **Gurdurr** | Fighting |  |  |
+| 140 | **Timburr** | Fighting |  |  |
+| 141 | **Krokorok** | Ground / Dark |  |  |
+| 142 | **Sandile** | Ground / Dark |  |  |
+| 143 | **Zorua** | Dark |  |  |
+| 144 | **Fletchinder** | Fire / Flying |  |  |
+| 145 | **Fletchling** | Normal / Flying |  |  |
+| 146 | **Karrablast** | Bug |  |  |
+| 147 | **Steenee** | Grass |  |  |
+| 148 | **Bounsweet** | Grass |  |  |
+| 149 | **Shroomish** | Grass |  |  |
+| 150 | **Vibrava** | Ground / Dragon |  |  |
+| 151 | **Trapinch** | Ground |  |  |
+| 152 | **Swablu** | Normal / Flying |  |  |
+| 153 | **Dartrix** | Grass / Flying |  |  |
+| 154 | **Rowlet** | Grass / Flying |  |  |
+| 155 | **Mienfoo** | Fighting |  |  |
+| 156 | **Fraxure** | Dragon |  |  |
+| 157 | **Axew** | Dragon |  |  |
+| 158 | **Zweilous** | Dark / Dragon |  |  |
+| 159 | **Deino** | Dark / Dragon |  |  |
+| 160 | **Larvesta** | Bug / Fire |  |  |
+| 161 | **Noibat** | Flying / Dragon |  |  |
+| 162 | **Wimpod** | Bug / Water |  |  |
+| 163 | **Poipole** | Poison |  |  |
+| 164 | **Bisharp** | Dark / Steel |  |  |
+| 165 | **Pawniard** | Dark / Steel |  |  |
+| 166 | **Thwackey** | Grass |  |  |
+| 167 | **Grookey** | Grass |  |  |
+| 168 | **Kubfu** | Fighting |  |  |
+| 169 | **Shelgon** | Dragon |  |  |
+| 170 | **Bagon** | Dragon |  |  |
+| 171 | **Carvanha** | Water / Dark |  |  |
+| 172 | **Tyrogue** | Fighting |  |  |
+| 173 | **Magneton** | Electric / Steel |  |  |
+| 174 | **Magnemite** | Electric / Steel |  |  |
+| 175 | **Skorupi** | Poison / Bug |  |  |
+| 176 | **Snorunt** | Ice |  |  |
+| 177 | **Dusclops** | Ghost |  |  |
+| 178 | **Duskull** | Ghost |  |  |
+| 179 | **Trumbeak** | Normal / Flying |  |  |
+| 180 | **Pikipek** | Normal / Flying |  |  |
+| 181 | **Tinkatuff** | Fairy / Steel |  |  |
+| 182 | **Tinkatink** | Fairy / Steel |  |  |
+| 183 | **Pikachu** | Electric |  |  |
+| 184 | **Haxorus** | Dragon |  |  |
+| 185 | **Hydreigon** | Dark / Dragon |  |  |
+| 186 | **Volcarona** | Bug / Fire |  |  |
+| 187 | **Noivern** | Flying / Dragon |  |  |
+| 188 | **Golisopod** | Bug / Water |  | Mega Golisopod |
+| 189 | **Naganadel** | Poison / Dragon |  |  |
+| 190 | **Kingambit** | Dark / Steel |  |  |
+| 191 | **Mew** | Psychic |  |  |
+| 192 | **Rillaboom** | Grass |  |  |
+| 193 | **Urshifu** | Fighting / Dark | Urshifu |  |
+| 194 | **Deoxys** | Psychic | Deoxys, Deoxys, Deoxys |  |
+| 195 | **Latios** | Dragon / Psychic |  | Mega Latios |
+| 196 | **Salamence** | Dragon / Flying |  | Mega Salamence |
+| 197 | **Sharpedo** | Water / Dark |  | Mega Sharpedo |
+| 198 | **Aerodactyl** | Rock / Flying |  | Mega Aerodactyl |
+| 199 | **Ditto** | Normal |  |  |
+| 200 | **Hitmonchan** | Fighting |  |  |
+| 201 | **Hitmonlee** | Fighting |  |  |
+| 202 | **Magnezone** | Electric / Steel |  |  |
+| 203 | **Drapion** | Poison / Dark |  |  |
+| 204 | **Gallade** | Psychic / Fighting |  | Mega Gallade |
+| 205 | **Froslass** | Ice / Ghost |  | Mega Froslass |
+| 206 | **Dusknoir** | Ghost |  |  |
+| 207 | **Oshawott** | Water |  |  |
+| 208 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
+| 209 | **Toucannon** | Normal / Flying |  |  |
+| 210 | **Tinkaton** | Fairy / Steel |  |  |
+| 211 | **Darkrai** | Dark |  | Mega Darkrai |
+| 212 | **Miraidon** | Electric / Dragon |  |  |
+| 213 | **Koraidon** | Fighting / Dragon |  |  |
+| 214 | **Charmander** | Fire |  |  |
+| 215 | **Charmeleon** | Fire |  |  |
+| 216 | **Froakie** | Water |  |  |
+| 217 | **Frogadier** | Water |  |  |
+| 218 | **Riolu** | Fighting |  |  |
+| 219 | **Pichu** | Electric |  |  |
+| 220 | **Gholdengo** | Steel / Ghost |  |  |
+| 221 | **Honedge** | Steel / Ghost |  |  |
+| 222 | **Doublade** | Steel / Ghost |  |  |
+| 223 | **Aegislash** | Steel / Ghost |  |  |
+| 224 | **Hitmontop** | Fighting |  |  |
+| 225 | **Regigigas** | Normal |  |  |
+| 226 | **Porygon-Z** | Normal |  |  |
+| 227 | **Purugly** | Normal |  |  |
+| 228 | **Delcatty** | Normal |  |  |
+| 229 | **Eevee** | Normal |  |  |
+| 230 | **Vaporeon** | Water |  |  |
+| 231 | **Jolteon** | Electric |  |  |
+| 232 | **Flareon** | Fire |  |  |
+| 233 | **Espeon** | Psychic |  |  |
+| 234 | **Umbreon** | Dark |  |  |
+| 235 | **Leafeon** | Grass |  |  |
+| 236 | **Glaceon** | Ice |  |  |
+| 237 | **Sylveon** | Fairy |  |  |
+| 238 | **Pelipper** | Water / Flying |  |  |
 | - | **Dialga** · *coming soon* | Steel / Dragon |  |  |
 | - | **Palkia** · *coming soon* | Water / Dragon |  |  |
 | - | **Giratina** · *coming soon* | Ghost / Dragon |  |  |
@@ -210,7 +359,7 @@ On the Discord server:
 
 ## Credits
 
-**PokeBrawl: original by xjoje6, rebuilt and expanded by kusho**, with [Godot Engine](https://godotengine.org). It stands on other people's work:
+**PokeBrawl: created by xjoje6 & kusho**, with [Godot Engine](https://godotengine.org). It stands on other people's work:
 
 - **Cobblemon** ([gitlab.com/cable-mc/cobblemon](https://gitlab.com/cable-mc/cobblemon)), by the Cobblemon team: the Pokémon
   models, animations and textures (CC BY-NC 3.0, adapted), move effects, sounds, cries and
@@ -219,6 +368,8 @@ On the Discord server:
   cries from the mods and resource packs it brings, among them **Mega Showdown** (Mega
   Evolutions, forms, Mega Stones and their effects) and **ZA Mega** (the Legends Z-A Megas).
   All rights stay with the Cobbleverse team and the authors of those mods and packs.
+- **RedRibbonz** ([modrinth.com/user/RedRibbonz](https://modrinth.com/user/RedRibbonz)): the Marshadow model,
+  used with the artist's permission.
 - **Music:** Pokémon arrangements by **The Noble Demon**
   ([youtube.com/@TheNobleDemon](https://www.youtube.com/@TheNobleDemon)), used with credit as permitted by the artist; the
   original compositions are by GAME FREAK's composers.
