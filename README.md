@@ -1,7 +1,7 @@
 # PokeBrawl
 
 **Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and Cobbleverse.
-238 Pokémon, 39 Mega Evolutions and battle forms, 9 arenas: against the AI, 1 vs 1 online,
+238 Pokémon, 38 Mega Evolutions and battle forms, 9 arenas: against the AI, 1 vs 1 online,
 or a free-for-all for up to 4 players.
 
 PokeBrawl is a free, non-profit fan project. This repository holds the game's builds: the
@@ -41,13 +41,13 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
 
 - **238 Pokémon** (the full list is below), each with its own model, animations, cry and
   way of moving: speed, jumps, dodges and, for many, flight.
-- **253 moves and 85 abilities** from the games. Pick each Pokémon's four moves and
+- **254 moves and 88 abilities** from the games. Pick each Pokémon's four moves and
   its ability from what it learns; every move shows its power, cooldown, reach and timings.
 - **Mega Evolution:** deal damage to fill the Mega bar, then Mega Evolve once per battle for
-  20 seconds after a 2-second transformation. 39 forms, among them both Charizard and Mewtwo X/Y, the
-  Legends Z-A Megas (Garchomp Z, Lucario Z, Greninja, Dragonite, Chandelure...), Armored
-  Mewtwo and Mega Rayquaza.
-- **Forms picked in the lobby:** 6 forms in all, e.g. Deoxys' four formes and Urshifu's two styles.
+  20 seconds after a 2-second transformation. 38 forms, among them both Charizard and Mewtwo X/Y, the
+  Legends Z-A Megas (Garchomp Z, Lucario Z, Greninja, Dragonite, Chandelure...) and Mega
+  Rayquaza.
+- **Forms picked in the lobby:** 4 forms in all, e.g. Urshifu's two styles and Toxtricity's Amped and Low Key forms.
 - **Coming soon:** Dialga, Palkia, Giratina, Necrozma, Eternatus, with Ultra Necrozma and Eternamax Eternatus. You can already
   see them on the wall.
 - **Block & Parry:** hold Block to guard, tap it just before a hit to parry and leave the attacker open.
@@ -113,7 +113,7 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 12 | **Alakazam** | Psychic |  | Mega Alakazam |
 | 13 | **Bellsprout** | Grass / Poison |  |  |
 | 14 | **Dragonite** | Dragon / Flying |  | Mega Dragonite |
-| 15 | **Mewtwo** | Psychic |  | Mega Mewtwo X, Mega Mewtwo Y, Armored Mewtwo |
+| 15 | **Mewtwo** | Psychic |  | Mega Mewtwo X, Mega Mewtwo Y |
 | 16 | **Tyranitar** | Rock / Dark |  | Mega Tyranitar |
 | 17 | **Lugia** | Psychic / Flying |  |  |
 | 18 | **Ho-Oh** | Fire / Flying |  |  |
@@ -292,51 +292,51 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 191 | **Mew** | Psychic |  |  |
 | 192 | **Rillaboom** | Grass |  |  |
 | 193 | **Urshifu** | Fighting / Dark | Urshifu |  |
-| 194 | **Deoxys** | Psychic | Deoxys, Deoxys, Deoxys |  |
-| 195 | **Latios** | Dragon / Psychic |  | Mega Latios |
-| 196 | **Salamence** | Dragon / Flying |  | Mega Salamence |
-| 197 | **Sharpedo** | Water / Dark |  | Mega Sharpedo |
-| 198 | **Aerodactyl** | Rock / Flying |  | Mega Aerodactyl |
-| 199 | **Ditto** | Normal |  |  |
-| 200 | **Hitmonchan** | Fighting |  |  |
-| 201 | **Hitmonlee** | Fighting |  |  |
-| 202 | **Magnezone** | Electric / Steel |  |  |
-| 203 | **Drapion** | Poison / Dark |  |  |
-| 204 | **Gallade** | Psychic / Fighting |  | Mega Gallade |
-| 205 | **Froslass** | Ice / Ghost |  | Mega Froslass |
-| 206 | **Dusknoir** | Ghost |  |  |
-| 207 | **Oshawott** | Water |  |  |
-| 208 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
-| 209 | **Toucannon** | Normal / Flying |  |  |
+| 194 | **Latios** | Dragon / Psychic |  | Mega Latios |
+| 195 | **Salamence** | Dragon / Flying |  | Mega Salamence |
+| 196 | **Sharpedo** | Water / Dark |  | Mega Sharpedo |
+| 197 | **Aerodactyl** | Rock / Flying |  | Mega Aerodactyl |
+| 198 | **Ditto** | Normal |  |  |
+| 199 | **Hitmonchan** | Fighting |  |  |
+| 200 | **Hitmonlee** | Fighting |  |  |
+| 201 | **Magnezone** | Electric / Steel |  |  |
+| 202 | **Drapion** | Poison / Dark |  |  |
+| 203 | **Gallade** | Psychic / Fighting |  | Mega Gallade |
+| 204 | **Froslass** | Ice / Ghost |  | Mega Froslass |
+| 205 | **Dusknoir** | Ghost |  |  |
+| 206 | **Oshawott** | Water |  |  |
+| 207 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
+| 208 | **Toucannon** | Normal / Flying |  |  |
+| 209 | **Zekrom** | Dragon / Electric |  |  |
 | 210 | **Tinkaton** | Fairy / Steel |  |  |
 | 211 | **Darkrai** | Dark |  | Mega Darkrai |
-| 212 | **Miraidon** | Electric / Dragon |  |  |
-| 213 | **Koraidon** | Fighting / Dragon |  |  |
-| 214 | **Charmander** | Fire |  |  |
-| 215 | **Charmeleon** | Fire |  |  |
-| 216 | **Froakie** | Water |  |  |
-| 217 | **Frogadier** | Water |  |  |
-| 218 | **Riolu** | Fighting |  |  |
-| 219 | **Pichu** | Electric |  |  |
-| 220 | **Gholdengo** | Steel / Ghost |  |  |
-| 221 | **Honedge** | Steel / Ghost |  |  |
-| 222 | **Doublade** | Steel / Ghost |  |  |
-| 223 | **Aegislash** | Steel / Ghost |  |  |
-| 224 | **Hitmontop** | Fighting |  |  |
-| 225 | **Regigigas** | Normal |  |  |
-| 226 | **Porygon-Z** | Normal |  |  |
-| 227 | **Purugly** | Normal |  |  |
-| 228 | **Delcatty** | Normal |  |  |
-| 229 | **Eevee** | Normal |  |  |
-| 230 | **Vaporeon** | Water |  |  |
-| 231 | **Jolteon** | Electric |  |  |
-| 232 | **Flareon** | Fire |  |  |
-| 233 | **Espeon** | Psychic |  |  |
-| 234 | **Umbreon** | Dark |  |  |
-| 235 | **Leafeon** | Grass |  |  |
-| 236 | **Glaceon** | Ice |  |  |
-| 237 | **Sylveon** | Fairy |  |  |
-| 238 | **Pelipper** | Water / Flying |  |  |
+| 212 | **Charmander** | Fire |  |  |
+| 213 | **Charmeleon** | Fire |  |  |
+| 214 | **Froakie** | Water |  |  |
+| 215 | **Frogadier** | Water |  |  |
+| 216 | **Riolu** | Fighting |  |  |
+| 217 | **Pichu** | Electric |  |  |
+| 218 | **Gholdengo** | Steel / Ghost |  |  |
+| 219 | **Honedge** | Steel / Ghost |  |  |
+| 220 | **Doublade** | Steel / Ghost |  |  |
+| 221 | **Aegislash** | Steel / Ghost |  |  |
+| 222 | **Hitmontop** | Fighting |  |  |
+| 223 | **Regigigas** | Normal |  |  |
+| 224 | **Porygon-Z** | Normal |  |  |
+| 225 | **Purugly** | Normal |  |  |
+| 226 | **Delcatty** | Normal |  |  |
+| 227 | **Eevee** | Normal |  |  |
+| 228 | **Vaporeon** | Water |  |  |
+| 229 | **Jolteon** | Electric |  |  |
+| 230 | **Flareon** | Fire |  |  |
+| 231 | **Espeon** | Psychic |  |  |
+| 232 | **Umbreon** | Dark |  |  |
+| 233 | **Leafeon** | Grass |  |  |
+| 234 | **Glaceon** | Ice |  |  |
+| 235 | **Sylveon** | Fairy |  |  |
+| 236 | **Pelipper** | Water / Flying |  |  |
+| 237 | **Toxel** | Electric / Poison |  |  |
+| 238 | **Toxtricity** | Electric / Poison | Toxtricity |  |
 | - | **Dialga** · *coming soon* | Steel / Dragon |  |  |
 | - | **Palkia** · *coming soon* | Water / Dragon |  |  |
 | - | **Giratina** · *coming soon* | Ghost / Dragon |  |  |
@@ -366,10 +366,18 @@ On the Discord server:
   battle UI pieces (MPL 2.0), and species data.
 - **Cobbleverse** ([modrinth.com/modpack/cobbleverse](https://modrinth.com/modpack/cobbleverse)): the models, animations, textures and
   cries from the mods and resource packs it brings, among them **Mega Showdown** (Mega
-  Evolutions, forms, Mega Stones and their effects) and **ZA Mega** (the Legends Z-A Megas).
+  Evolutions, forms and their effects).
   All rights stay with the Cobbleverse team and the authors of those mods and packs.
-- **RedRibbonz** ([modrinth.com/user/RedRibbonz](https://modrinth.com/user/RedRibbonz)): the Marshadow model,
-  used with the artist's permission.
+- **RedRibbonz** ([modrinth.com/user/RedRibbonz](https://modrinth.com/user/RedRibbonz)), from her MissingMons add-on:
+  the Marshadow, Jirachi, Blacephalon, Poipole and Naganadel models, used with the artist's permission.
+- **sanji1**: the Mega Charizard X and Y, Aerodactyl, Alakazam, Gallade, Garchomp, Gardevoir, Gyarados,
+  Lopunny, Metagross, Salamence, Sharpedo and Tyranitar models and Latias and Latios with their Megas,
+  free to use with credit (Mega Showdown).
+- **Cobblemon Delta** ([discord.gg/cobblemondelta](https://discord.gg/cobblemondelta)): the Mega Blaziken model
+  (Mega Showdown), used with Cobblemon Delta's explicit permission.
+- **Tontra** (Pokemans Pack): the Rayquaza and Mega Rayquaza models (Mega Showdown), used with the
+  artist's permission.
+- **Presii**: the Mega Venusaur and Mega Sableye models (Mega Showdown), used with the artist's permission.
 - **Music:** Pokémon arrangements by **The Noble Demon**
   ([youtube.com/@TheNobleDemon](https://www.youtube.com/@TheNobleDemon)), used with credit as permitted by the artist; the
   original compositions are by GAME FREAK's composers.
