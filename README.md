@@ -28,11 +28,20 @@ All downloads are on the [latest release](https://github.com/kushotenz/pb-mod-up
 3. The first time, macOS can't check the developer: open *System Settings* > *Privacy & Security*
    and click *Open Anyway* (only once).
 
+### Android
+
+**[Download PokeBrawl for Android](https://github.com/kushotenz/pb-mod-updates/releases/latest/download/PokeBrawl-android.apk)** (Android 7.0 or newer)
+
+1. Open the downloaded `PokeBrawl-android.apk` on your phone.
+2. If Android asks, allow installing apps from this source (your browser or file manager), then tap *Install*.
+3. If Play Protect warns about an unknown app, choose *Install anyway* (the game is not on the Play Store).
+
 ### Good to know
 
 - **Updates install themselves** (Windows and Mac): at start the game checks for a new version and
-  offers it; one click downloads it, swaps the game and restarts it.
-- Online, everyone needs the same version (the game warns you if not); Windows and Mac play together.
+  offers it; one click downloads it, swaps the game and restarts it. On Android the game tells you
+  when a new version is out and opens its download; install it over the old one, your saves stay.
+- Online, everyone needs the same version (the game warns you if not); Windows, Mac and Android play together.
 - Keyboard and mouse or a gamepad (Xbox or PlayStation), also at the same time.
 
 Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.txt`.
@@ -364,10 +373,9 @@ On the Discord server:
 - **Cobblemon** ([gitlab.com/cable-mc/cobblemon](https://gitlab.com/cable-mc/cobblemon)), by the Cobblemon team: the Pokémon
   models, animations and textures (CC BY-NC 3.0, adapted), move effects, sounds, cries and
   battle UI pieces (MPL 2.0), and species data.
-- **Cobbleverse** ([modrinth.com/modpack/cobbleverse](https://modrinth.com/modpack/cobbleverse)): the models, animations, textures and
-  cries from the mods and resource packs it brings, among them **Mega Showdown** (Mega
-  Evolutions, forms and their effects).
-  All rights stay with the Cobbleverse team and the authors of those mods and packs.
+- **Mega Showdown** ([modrinth.com/mod/cobblemon-mega-showdown](https://modrinth.com/mod/cobblemon-mega-showdown)): many of the Mega and
+  form models below were published there; each model's artist is credited by name. All rights stay
+  with them.
 - **RedRibbonz** ([modrinth.com/user/RedRibbonz](https://modrinth.com/user/RedRibbonz)), from her MissingMons add-on:
   the Marshadow, Jirachi, Blacephalon, Poipole and Naganadel models, used with the artist's permission.
 - **sanji1**: the Mega Charizard X and Y, Aerodactyl, Alakazam, Gallade, Garchomp, Gardevoir, Gyarados,
