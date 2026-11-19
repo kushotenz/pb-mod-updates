@@ -1,7 +1,7 @@
 # PokeBrawl
 
 **Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and the artists credited below.
-238 Pokémon, 38 Mega Evolutions and battle forms, 9 arenas: against the AI, 1 vs 1 online,
+237 Pokémon, 38 Mega Evolutions and battle forms, 9 arenas: against the AI, 1 vs 1 online,
 or a free-for-all for up to 4 players.
 
 PokeBrawl is a free, non-profit fan project. This repository holds the game's builds: the
@@ -48,7 +48,7 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
 
 ## What is in
 
-- **238 Pokémon** (the full list is below), each with its own model, animations, cry and
+- **237 Pokémon** (the full list is below), each with its own model, animations, cry and
   way of moving: speed, jumps, dodges and, for many, flight.
 - **254 moves and 88 abilities** from the games. Pick each Pokémon's four moves and
   its ability from what it learns; every move shows its power, cooldown, reach and timings.
@@ -57,8 +57,6 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
   Legends Z-A Megas (Garchomp Z, Lucario Z, Greninja, Dragonite, Chandelure...) and Mega
   Rayquaza.
 - **Forms picked in the lobby:** 4 forms in all, e.g. Urshifu's two styles and Toxtricity's Amped and Low Key forms.
-- **Coming soon:** Dialga, Palkia, Giratina, Necrozma, Eternatus, with Ultra Necrozma and Eternamax Eternatus. You can already
-  see them on the wall.
 - **Block & Parry:** hold Block to guard, tap it just before a hit to parry and leave the attacker open.
 - **Languages:** English, Português (Brasil) and Español, picked on the first start.
 - **Teams of three** with switching, a **random team** pick (hidden until the battle), and
@@ -104,7 +102,7 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 ## The roster
 
 <details>
-<summary><b>All 238 Pokémon</b> (+ 5 coming soon), with their forms and Mega Evolutions (click to open)</summary>
+<summary><b>All 237 Pokémon</b>, with their forms and Mega Evolutions (click to open)</summary>
 
 | # | Pokémon | Types | Forms (picked in the lobby) | Mega Evolution / battle forms |
 |---|---|---|---|---|
@@ -316,41 +314,35 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 206 | **Oshawott** | Water |  |  |
 | 207 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
 | 208 | **Toucannon** | Normal / Flying |  |  |
-| 209 | **Zekrom** | Dragon / Electric |  |  |
-| 210 | **Tinkaton** | Fairy / Steel |  |  |
-| 211 | **Darkrai** | Dark |  | Mega Darkrai |
-| 212 | **Charmander** | Fire |  |  |
-| 213 | **Charmeleon** | Fire |  |  |
-| 214 | **Froakie** | Water |  |  |
-| 215 | **Frogadier** | Water |  |  |
-| 216 | **Riolu** | Fighting |  |  |
-| 217 | **Pichu** | Electric |  |  |
-| 218 | **Gholdengo** | Steel / Ghost |  |  |
-| 219 | **Honedge** | Steel / Ghost |  |  |
-| 220 | **Doublade** | Steel / Ghost |  |  |
-| 221 | **Aegislash** | Steel / Ghost |  |  |
-| 222 | **Hitmontop** | Fighting |  |  |
-| 223 | **Regigigas** | Normal |  |  |
-| 224 | **Porygon-Z** | Normal |  |  |
-| 225 | **Purugly** | Normal |  |  |
-| 226 | **Delcatty** | Normal |  |  |
-| 227 | **Eevee** | Normal |  |  |
-| 228 | **Vaporeon** | Water |  |  |
-| 229 | **Jolteon** | Electric |  |  |
-| 230 | **Flareon** | Fire |  |  |
-| 231 | **Espeon** | Psychic |  |  |
-| 232 | **Umbreon** | Dark |  |  |
-| 233 | **Leafeon** | Grass |  |  |
-| 234 | **Glaceon** | Ice |  |  |
-| 235 | **Sylveon** | Fairy |  |  |
-| 236 | **Pelipper** | Water / Flying |  |  |
-| 237 | **Toxel** | Electric / Poison |  |  |
-| 238 | **Toxtricity** | Electric / Poison | Toxtricity |  |
-| - | **Dialga** · *coming soon* | Steel / Dragon |  |  |
-| - | **Palkia** · *coming soon* | Water / Dragon |  |  |
-| - | **Giratina** · *coming soon* | Ghost / Dragon |  |  |
-| - | **Necrozma** · *coming soon* | Psychic |  | Ultra Necrozma |
-| - | **Eternatus** · *coming soon* | Poison / Dragon |  | Eternamax Eternatus |
+| 209 | **Tinkaton** | Fairy / Steel |  |  |
+| 210 | **Darkrai** | Dark |  | Mega Darkrai |
+| 211 | **Charmander** | Fire |  |  |
+| 212 | **Charmeleon** | Fire |  |  |
+| 213 | **Froakie** | Water |  |  |
+| 214 | **Frogadier** | Water |  |  |
+| 215 | **Riolu** | Fighting |  |  |
+| 216 | **Pichu** | Electric |  |  |
+| 217 | **Gholdengo** | Steel / Ghost |  |  |
+| 218 | **Honedge** | Steel / Ghost |  |  |
+| 219 | **Doublade** | Steel / Ghost |  |  |
+| 220 | **Aegislash** | Steel / Ghost |  |  |
+| 221 | **Hitmontop** | Fighting |  |  |
+| 222 | **Regigigas** | Normal |  |  |
+| 223 | **Porygon-Z** | Normal |  |  |
+| 224 | **Purugly** | Normal |  |  |
+| 225 | **Delcatty** | Normal |  |  |
+| 226 | **Eevee** | Normal |  |  |
+| 227 | **Vaporeon** | Water |  |  |
+| 228 | **Jolteon** | Electric |  |  |
+| 229 | **Flareon** | Fire |  |  |
+| 230 | **Espeon** | Psychic |  |  |
+| 231 | **Umbreon** | Dark |  |  |
+| 232 | **Leafeon** | Grass |  |  |
+| 233 | **Glaceon** | Ice |  |  |
+| 234 | **Sylveon** | Fairy |  |  |
+| 235 | **Pelipper** | Water / Flying |  |  |
+| 236 | **Toxel** | Electric / Poison |  |  |
+| 237 | **Toxtricity** | Electric / Poison | Toxtricity |  |
 
 </details>
 
