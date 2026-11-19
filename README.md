@@ -371,13 +371,21 @@ On the Discord server:
 - **RedRibbonz** ([modrinth.com/user/RedRibbonz](https://modrinth.com/user/RedRibbonz)), from her MissingMons add-on:
   the Marshadow, Jirachi, Blacephalon, Poipole and Naganadel models, used with the artist's permission.
 - **sanji1**: the Mega Charizard X and Y, Aerodactyl, Alakazam, Gallade, Garchomp, Gardevoir, Gyarados,
-  Lopunny, Metagross, Salamence, Sharpedo and Tyranitar models and Latias and Latios with their Megas,
+  Lopunny, Metagross, Salamence, Sharpedo and Tyranitar models and Latios with its Mega,
   free to use with credit (Mega Showdown).
 - **Cobblemon Delta** ([discord.gg/cobblemondelta](https://discord.gg/cobblemondelta)): the Mega Blaziken model
   (Mega Showdown), used with Cobblemon Delta's explicit permission.
-- **Tontra** (Pokemans Pack): the Rayquaza and Mega Rayquaza models (Mega Showdown), used with the
-  artist's permission.
+- **Tontra** (Pokemans Pack): the Rayquaza, Mega Rayquaza, Kubfu and Urshifu (both styles) models, used
+  with the artist's permission.
 - **Presii**: the Mega Venusaur and Mega Sableye models (Mega Showdown), used with the artist's permission.
+- **Lenka** ([CobbleMotion](https://modrinth.com/resourcepack/cobblemotion)): the animations of many Pokémon (among them
+  Sceptile, Scizor, Zoroark, Samurott, Decidueye, Electivire, Empoleon, Toucannon, Greninja, Gengar and
+  Tyranitar) and the Bounsweet, Steenee and Tsareena models.
+- **Alexiocraft** (MundialMons): the Mienshao model.
+- **DiEn** (TDmon): the Seismitoad model.
+- **Quinn284**: the Mega Blastoise and Mega Gengar models (Mega Showdown).
+- **Theeraphat**: the Mega Mewtwo X and Y and Mega Sceptile models (Mega Showdown).
+- **Horret**: the Mega Greninja model (Mega Showdown).
 - **Music:** Pokémon arrangements by **The Noble Demon**
   ([youtube.com/@TheNobleDemon](https://www.youtube.com/@TheNobleDemon)), used with credit as permitted by the artist; the
   original compositions are by GAME FREAK's composers.
