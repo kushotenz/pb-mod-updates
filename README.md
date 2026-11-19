@@ -1,6 +1,6 @@
 # PokeBrawl
 
-**Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and Cobbleverse.
+**Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and the artists credited below.
 238 Pokémon, 38 Mega Evolutions and battle forms, 9 arenas: against the AI, 1 vs 1 online,
 or a free-for-all for up to 4 players.
 
