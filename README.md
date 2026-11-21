@@ -1,7 +1,7 @@
 # PokeBrawl
 
 **Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and the artists credited below.
-244 Pokémon, 39 Mega Evolutions and battle forms, 10 arenas: against the AI, 1 vs 1 online,
+245 Pokémon, 40 Mega Evolutions and battle forms, 10 arenas: against the AI, 1 vs 1 online,
 or a free-for-all for up to 4 players.
 
 PokeBrawl is a free, non-profit fan project. This repository holds the game's builds: the
@@ -36,6 +36,8 @@ All downloads are on the [latest release](https://github.com/kushotenz/pb-mod-up
 2. If Android asks, allow installing apps from this source (your browser or file manager), then tap *Install*.
 3. If Play Protect warns about an unknown app, choose *Install anyway* (the game is not on the Play Store).
 
+On a PC emulator (BlueStacks, LDPlayer) or an Intel Chromebook, take **[PokeBrawl-android-x86_64.apk](https://github.com/kushotenz/pb-mod-updates/releases/latest/download/PokeBrawl-android-x86_64.apk)** instead.
+
 ### Good to know
 
 - **Updates install themselves** (Windows and Mac): at start the game checks for a new version and
@@ -48,12 +50,12 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
 
 ## What is in
 
-- **244 Pokémon** (the full list is below), each with its own model, animations, cry and
+- **245 Pokémon** (the full list is below), each with its own model, animations, cry and
   way of moving: speed, jumps, dodges and, for many, flight.
-- **268 moves and 96 abilities** from the games. Pick each Pokémon's four moves and
+- **268 moves and 97 abilities** from the games. Pick each Pokémon's four moves and
   its ability from what it learns; every move shows its power, cooldown, reach and timings.
 - **Mega Evolution:** deal damage to fill the Mega bar, then Mega Evolve once per battle for
-  20 seconds after a 2-second transformation. 39 forms, among them both Charizard and Mewtwo X/Y, the
+  20 seconds after a 2-second transformation. 40 forms, among them both Charizard and Mewtwo X/Y, the
   Legends Z-A Megas (Garchomp Z, Lucario Z, Greninja, Dragonite, Chandelure...) and Mega
   Rayquaza.
 - **Forms picked in the lobby:** 6 forms in all, e.g. Urshifu's two styles and Toxtricity's Amped and Low Key forms.
@@ -103,7 +105,7 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 ## The roster
 
 <details>
-<summary><b>All 244 Pokémon</b>, with their forms and Mega Evolutions (click to open)</summary>
+<summary><b>All 245 Pokémon</b>, with their forms and Mega Evolutions (click to open)</summary>
 
 | # | Pokémon | Types | Forms (picked in the lobby) | Mega Evolution / battle forms |
 |---|---|---|---|---|
@@ -179,178 +181,179 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 70 | **Decidueye** | Grass / Ghost | Decidueye |  |
 | 71 | **Mienshao** | Fighting |  |  |
 | 72 | **Jirachi** | Steel / Psychic |  |  |
-| 73 | **Munchlax** | Normal |  |  |
-| 74 | **Wartortle** | Water |  |  |
-| 75 | **Squirtle** | Water |  |  |
-| 76 | **Ivysaur** | Grass / Poison |  |  |
-| 77 | **Bulbasaur** | Grass / Poison |  |  |
-| 78 | **Haunter** | Ghost / Poison |  |  |
-| 79 | **Gastly** | Ghost / Poison |  |  |
-| 80 | **Gabite** | Dragon / Ground |  |  |
-| 81 | **Gible** | Dragon / Ground |  |  |
-| 82 | **Scyther** | Bug / Flying |  |  |
-| 83 | **Growlithe** | Fire |  |  |
-| 84 | **Kadabra** | Psychic |  |  |
-| 85 | **Abra** | Psychic |  |  |
-| 86 | **Dragonair** | Dragon |  |  |
-| 87 | **Dratini** | Dragon |  |  |
-| 88 | **Pupitar** | Rock / Ground |  |  |
-| 89 | **Larvitar** | Rock / Ground |  |  |
-| 90 | **Lombre** | Water / Grass |  |  |
-| 91 | **Lotad** | Water / Grass |  |  |
-| 92 | **Kirlia** | Psychic / Fairy |  |  |
-| 93 | **Ralts** | Psychic / Fairy |  |  |
-| 94 | **Metang** | Steel / Psychic |  |  |
-| 95 | **Beldum** | Steel / Psychic |  |  |
-| 96 | **Monferno** | Fire / Fighting |  |  |
-| 97 | **Chimchar** | Fire |  |  |
-| 98 | **Buneary** | Normal |  |  |
-| 99 | **Misdreavus** | Ghost |  |  |
-| 100 | **Murkrow** | Dark / Flying |  |  |
-| 101 | **Gligar** | Ground / Flying |  |  |
-| 102 | **Piloswine** | Ice / Ground |  |  |
-| 103 | **Swinub** | Ice / Ground |  |  |
-| 104 | **Lampent** | Ghost / Fire |  |  |
-| 105 | **Litwick** | Ghost / Fire |  |  |
-| 106 | **Charcadet** | Fire |  |  |
-| 107 | **Brionne** | Water |  |  |
-| 108 | **Popplio** | Water |  |  |
-| 109 | **Drizzile** | Water |  |  |
-| 110 | **Floragato** | Grass |  |  |
-| 111 | **Tadbulb** | Electric |  |  |
-| 112 | **Vanillish** | Ice |  |  |
-| 113 | **Vanillite** | Ice |  |  |
-| 114 | **Nidorino** | Poison |  |  |
-| 115 | **Nidoran-M** | Poison |  |  |
-| 116 | **Magikarp** | Water |  |  |
-| 117 | **Electabuzz** | Electric |  |  |
-| 118 | **Elekid** | Electric |  |  |
-| 119 | **Golbat** | Poison / Flying |  |  |
-| 120 | **Zubat** | Poison / Flying |  |  |
-| 121 | **Grovyle** | Grass |  |  |
-| 122 | **Treecko** | Grass |  |  |
-| 123 | **Combusken** | Fire / Fighting |  |  |
-| 124 | **Torchic** | Fire |  |  |
-| 125 | **Corphish** | Water |  |  |
-| 126 | **Prinplup** | Water |  |  |
-| 127 | **Piplup** | Water |  |  |
-| 128 | **Staravia** | Normal / Flying |  |  |
-| 129 | **Starly** | Normal / Flying |  |  |
-| 130 | **Roselia** | Grass / Poison |  |  |
-| 131 | **Budew** | Grass / Poison |  |  |
-| 132 | **Croagunk** | Poison / Fighting |  |  |
-| 133 | **Sneasel** | Dark / Ice |  |  |
-| 134 | **Servine** | Grass |  |  |
-| 135 | **Snivy** | Grass |  |  |
-| 136 | **Dewott** | Water |  |  |
-| 137 | **Palpitoad** | Water / Ground |  |  |
-| 138 | **Tympole** | Water |  |  |
-| 139 | **Gurdurr** | Fighting |  |  |
-| 140 | **Timburr** | Fighting |  |  |
-| 141 | **Krokorok** | Ground / Dark |  |  |
-| 142 | **Sandile** | Ground / Dark |  |  |
-| 143 | **Zorua** | Dark |  |  |
-| 144 | **Fletchinder** | Fire / Flying |  |  |
-| 145 | **Fletchling** | Normal / Flying |  |  |
-| 146 | **Karrablast** | Bug |  |  |
-| 147 | **Steenee** | Grass |  |  |
-| 148 | **Bounsweet** | Grass |  |  |
-| 149 | **Shroomish** | Grass |  |  |
-| 150 | **Vibrava** | Ground / Dragon |  |  |
-| 151 | **Trapinch** | Ground |  |  |
-| 152 | **Swablu** | Normal / Flying |  |  |
-| 153 | **Dartrix** | Grass / Flying |  |  |
-| 154 | **Rowlet** | Grass / Flying |  |  |
-| 155 | **Mienfoo** | Fighting |  |  |
-| 156 | **Fraxure** | Dragon |  |  |
-| 157 | **Axew** | Dragon |  |  |
-| 158 | **Zweilous** | Dark / Dragon |  |  |
-| 159 | **Deino** | Dark / Dragon |  |  |
-| 160 | **Larvesta** | Bug / Fire |  |  |
-| 161 | **Noibat** | Flying / Dragon |  |  |
-| 162 | **Wimpod** | Bug / Water |  |  |
-| 163 | **Poipole** | Poison |  |  |
-| 164 | **Bisharp** | Dark / Steel |  |  |
-| 165 | **Pawniard** | Dark / Steel |  |  |
-| 166 | **Thwackey** | Grass |  |  |
-| 167 | **Grookey** | Grass |  |  |
-| 168 | **Kubfu** | Fighting |  |  |
-| 169 | **Shelgon** | Dragon |  |  |
-| 170 | **Bagon** | Dragon |  |  |
-| 171 | **Carvanha** | Water / Dark |  |  |
-| 172 | **Tyrogue** | Fighting |  |  |
-| 173 | **Magneton** | Electric / Steel |  |  |
-| 174 | **Magnemite** | Electric / Steel |  |  |
-| 175 | **Skorupi** | Poison / Bug |  |  |
-| 176 | **Snorunt** | Ice |  |  |
-| 177 | **Dusclops** | Ghost |  |  |
-| 178 | **Duskull** | Ghost |  |  |
-| 179 | **Trumbeak** | Normal / Flying |  |  |
-| 180 | **Pikipek** | Normal / Flying |  |  |
-| 181 | **Tinkatuff** | Fairy / Steel |  |  |
-| 182 | **Tinkatink** | Fairy / Steel |  |  |
-| 183 | **Pikachu** | Electric |  |  |
-| 184 | **Haxorus** | Dragon |  |  |
-| 185 | **Hydreigon** | Dark / Dragon |  |  |
-| 186 | **Volcarona** | Bug / Fire |  |  |
-| 187 | **Noivern** | Flying / Dragon |  |  |
-| 188 | **Golisopod** | Bug / Water |  | Mega Golisopod |
-| 189 | **Naganadel** | Poison / Dragon |  |  |
-| 190 | **Kingambit** | Dark / Steel |  |  |
-| 191 | **Mew** | Psychic |  |  |
-| 192 | **Rillaboom** | Grass |  |  |
-| 193 | **Urshifu** | Fighting / Dark | Urshifu |  |
-| 194 | **Latios** | Dragon / Psychic |  | Mega Latios |
-| 195 | **Salamence** | Dragon / Flying |  | Mega Salamence |
-| 196 | **Sharpedo** | Water / Dark |  | Mega Sharpedo |
-| 197 | **Aerodactyl** | Rock / Flying |  | Mega Aerodactyl |
-| 198 | **Ditto** | Normal |  |  |
-| 199 | **Hitmonchan** | Fighting |  |  |
-| 200 | **Hitmonlee** | Fighting |  |  |
-| 201 | **Magnezone** | Electric / Steel |  |  |
-| 202 | **Drapion** | Poison / Dark |  |  |
-| 203 | **Gallade** | Psychic / Fighting |  | Mega Gallade |
-| 204 | **Froslass** | Ice / Ghost |  | Mega Froslass |
-| 205 | **Dusknoir** | Ghost |  |  |
-| 206 | **Oshawott** | Water |  |  |
-| 207 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
-| 208 | **Toucannon** | Normal / Flying |  |  |
-| 209 | **Zekrom** | Dragon / Electric |  |  |
-| 210 | **Tinkaton** | Fairy / Steel |  |  |
-| 211 | **Darkrai** | Dark |  | Mega Darkrai |
-| 212 | **Charmander** | Fire |  |  |
-| 213 | **Charmeleon** | Fire |  |  |
-| 214 | **Froakie** | Water |  |  |
-| 215 | **Frogadier** | Water |  |  |
-| 216 | **Riolu** | Fighting |  |  |
-| 217 | **Pichu** | Electric |  |  |
-| 218 | **Gholdengo** | Steel / Ghost |  |  |
-| 219 | **Honedge** | Steel / Ghost |  |  |
-| 220 | **Doublade** | Steel / Ghost |  |  |
-| 221 | **Aegislash** | Steel / Ghost |  |  |
-| 222 | **Hitmontop** | Fighting |  |  |
-| 223 | **Regigigas** | Normal |  |  |
-| 224 | **Porygon-Z** | Normal |  |  |
-| 225 | **Purugly** | Normal |  |  |
-| 226 | **Delcatty** | Normal |  |  |
-| 227 | **Eevee** | Normal |  |  |
-| 228 | **Vaporeon** | Water |  |  |
-| 229 | **Jolteon** | Electric |  |  |
-| 230 | **Flareon** | Fire |  |  |
-| 231 | **Espeon** | Psychic |  |  |
-| 232 | **Umbreon** | Dark |  |  |
-| 233 | **Leafeon** | Grass |  |  |
-| 234 | **Glaceon** | Ice |  |  |
-| 235 | **Sylveon** | Fairy |  |  |
-| 236 | **Pelipper** | Water / Flying |  |  |
-| 237 | **Toxel** | Electric / Poison |  |  |
-| 238 | **Toxtricity** | Electric / Poison | Toxtricity |  |
-| 239 | **Petilil** | Grass |  |  |
-| 240 | **Lilligant** | Grass | Lilligant |  |
-| 241 | **Dedenne** | Electric / Fairy |  |  |
-| 242 | **Frigibax** | Dragon / Ice |  |  |
-| 243 | **Arctibax** | Dragon / Ice |  |  |
-| 244 | **Baxcalibur** | Dragon / Ice |  |  |
+| 73 | **Hoopa** | Psychic / Ghost |  | Hoopa Unbound |
+| 74 | **Munchlax** | Normal |  |  |
+| 75 | **Wartortle** | Water |  |  |
+| 76 | **Squirtle** | Water |  |  |
+| 77 | **Ivysaur** | Grass / Poison |  |  |
+| 78 | **Bulbasaur** | Grass / Poison |  |  |
+| 79 | **Haunter** | Ghost / Poison |  |  |
+| 80 | **Gastly** | Ghost / Poison |  |  |
+| 81 | **Gabite** | Dragon / Ground |  |  |
+| 82 | **Gible** | Dragon / Ground |  |  |
+| 83 | **Scyther** | Bug / Flying |  |  |
+| 84 | **Growlithe** | Fire |  |  |
+| 85 | **Kadabra** | Psychic |  |  |
+| 86 | **Abra** | Psychic |  |  |
+| 87 | **Dragonair** | Dragon |  |  |
+| 88 | **Dratini** | Dragon |  |  |
+| 89 | **Pupitar** | Rock / Ground |  |  |
+| 90 | **Larvitar** | Rock / Ground |  |  |
+| 91 | **Lombre** | Water / Grass |  |  |
+| 92 | **Lotad** | Water / Grass |  |  |
+| 93 | **Kirlia** | Psychic / Fairy |  |  |
+| 94 | **Ralts** | Psychic / Fairy |  |  |
+| 95 | **Metang** | Steel / Psychic |  |  |
+| 96 | **Beldum** | Steel / Psychic |  |  |
+| 97 | **Monferno** | Fire / Fighting |  |  |
+| 98 | **Chimchar** | Fire |  |  |
+| 99 | **Buneary** | Normal |  |  |
+| 100 | **Misdreavus** | Ghost |  |  |
+| 101 | **Murkrow** | Dark / Flying |  |  |
+| 102 | **Gligar** | Ground / Flying |  |  |
+| 103 | **Piloswine** | Ice / Ground |  |  |
+| 104 | **Swinub** | Ice / Ground |  |  |
+| 105 | **Lampent** | Ghost / Fire |  |  |
+| 106 | **Litwick** | Ghost / Fire |  |  |
+| 107 | **Charcadet** | Fire |  |  |
+| 108 | **Brionne** | Water |  |  |
+| 109 | **Popplio** | Water |  |  |
+| 110 | **Drizzile** | Water |  |  |
+| 111 | **Floragato** | Grass |  |  |
+| 112 | **Tadbulb** | Electric |  |  |
+| 113 | **Vanillish** | Ice |  |  |
+| 114 | **Vanillite** | Ice |  |  |
+| 115 | **Nidorino** | Poison |  |  |
+| 116 | **Nidoran-M** | Poison |  |  |
+| 117 | **Magikarp** | Water |  |  |
+| 118 | **Electabuzz** | Electric |  |  |
+| 119 | **Elekid** | Electric |  |  |
+| 120 | **Golbat** | Poison / Flying |  |  |
+| 121 | **Zubat** | Poison / Flying |  |  |
+| 122 | **Grovyle** | Grass |  |  |
+| 123 | **Treecko** | Grass |  |  |
+| 124 | **Combusken** | Fire / Fighting |  |  |
+| 125 | **Torchic** | Fire |  |  |
+| 126 | **Corphish** | Water |  |  |
+| 127 | **Prinplup** | Water |  |  |
+| 128 | **Piplup** | Water |  |  |
+| 129 | **Staravia** | Normal / Flying |  |  |
+| 130 | **Starly** | Normal / Flying |  |  |
+| 131 | **Roselia** | Grass / Poison |  |  |
+| 132 | **Budew** | Grass / Poison |  |  |
+| 133 | **Croagunk** | Poison / Fighting |  |  |
+| 134 | **Sneasel** | Dark / Ice |  |  |
+| 135 | **Servine** | Grass |  |  |
+| 136 | **Snivy** | Grass |  |  |
+| 137 | **Dewott** | Water |  |  |
+| 138 | **Palpitoad** | Water / Ground |  |  |
+| 139 | **Tympole** | Water |  |  |
+| 140 | **Gurdurr** | Fighting |  |  |
+| 141 | **Timburr** | Fighting |  |  |
+| 142 | **Krokorok** | Ground / Dark |  |  |
+| 143 | **Sandile** | Ground / Dark |  |  |
+| 144 | **Zorua** | Dark |  |  |
+| 145 | **Fletchinder** | Fire / Flying |  |  |
+| 146 | **Fletchling** | Normal / Flying |  |  |
+| 147 | **Karrablast** | Bug |  |  |
+| 148 | **Steenee** | Grass |  |  |
+| 149 | **Bounsweet** | Grass |  |  |
+| 150 | **Shroomish** | Grass |  |  |
+| 151 | **Vibrava** | Ground / Dragon |  |  |
+| 152 | **Trapinch** | Ground |  |  |
+| 153 | **Swablu** | Normal / Flying |  |  |
+| 154 | **Dartrix** | Grass / Flying |  |  |
+| 155 | **Rowlet** | Grass / Flying |  |  |
+| 156 | **Mienfoo** | Fighting |  |  |
+| 157 | **Fraxure** | Dragon |  |  |
+| 158 | **Axew** | Dragon |  |  |
+| 159 | **Zweilous** | Dark / Dragon |  |  |
+| 160 | **Deino** | Dark / Dragon |  |  |
+| 161 | **Larvesta** | Bug / Fire |  |  |
+| 162 | **Noibat** | Flying / Dragon |  |  |
+| 163 | **Wimpod** | Bug / Water |  |  |
+| 164 | **Poipole** | Poison |  |  |
+| 165 | **Bisharp** | Dark / Steel |  |  |
+| 166 | **Pawniard** | Dark / Steel |  |  |
+| 167 | **Thwackey** | Grass |  |  |
+| 168 | **Grookey** | Grass |  |  |
+| 169 | **Kubfu** | Fighting |  |  |
+| 170 | **Shelgon** | Dragon |  |  |
+| 171 | **Bagon** | Dragon |  |  |
+| 172 | **Carvanha** | Water / Dark |  |  |
+| 173 | **Tyrogue** | Fighting |  |  |
+| 174 | **Magneton** | Electric / Steel |  |  |
+| 175 | **Magnemite** | Electric / Steel |  |  |
+| 176 | **Skorupi** | Poison / Bug |  |  |
+| 177 | **Snorunt** | Ice |  |  |
+| 178 | **Dusclops** | Ghost |  |  |
+| 179 | **Duskull** | Ghost |  |  |
+| 180 | **Trumbeak** | Normal / Flying |  |  |
+| 181 | **Pikipek** | Normal / Flying |  |  |
+| 182 | **Tinkatuff** | Fairy / Steel |  |  |
+| 183 | **Tinkatink** | Fairy / Steel |  |  |
+| 184 | **Pikachu** | Electric |  |  |
+| 185 | **Haxorus** | Dragon |  |  |
+| 186 | **Hydreigon** | Dark / Dragon |  |  |
+| 187 | **Volcarona** | Bug / Fire |  |  |
+| 188 | **Noivern** | Flying / Dragon |  |  |
+| 189 | **Golisopod** | Bug / Water |  | Mega Golisopod |
+| 190 | **Naganadel** | Poison / Dragon |  |  |
+| 191 | **Kingambit** | Dark / Steel |  |  |
+| 192 | **Mew** | Psychic |  |  |
+| 193 | **Rillaboom** | Grass |  |  |
+| 194 | **Urshifu** | Fighting / Dark | Urshifu |  |
+| 195 | **Latios** | Dragon / Psychic |  | Mega Latios |
+| 196 | **Salamence** | Dragon / Flying |  | Mega Salamence |
+| 197 | **Sharpedo** | Water / Dark |  | Mega Sharpedo |
+| 198 | **Aerodactyl** | Rock / Flying |  | Mega Aerodactyl |
+| 199 | **Ditto** | Normal |  |  |
+| 200 | **Hitmonchan** | Fighting |  |  |
+| 201 | **Hitmonlee** | Fighting |  |  |
+| 202 | **Magnezone** | Electric / Steel |  |  |
+| 203 | **Drapion** | Poison / Dark |  |  |
+| 204 | **Gallade** | Psychic / Fighting |  | Mega Gallade |
+| 205 | **Froslass** | Ice / Ghost |  | Mega Froslass |
+| 206 | **Dusknoir** | Ghost |  |  |
+| 207 | **Oshawott** | Water |  |  |
+| 208 | **Hawlucha** | Fighting / Flying |  | Mega Hawlucha |
+| 209 | **Toucannon** | Normal / Flying |  |  |
+| 210 | **Zekrom** | Dragon / Electric |  |  |
+| 211 | **Tinkaton** | Fairy / Steel |  |  |
+| 212 | **Darkrai** | Dark |  | Mega Darkrai |
+| 213 | **Charmander** | Fire |  |  |
+| 214 | **Charmeleon** | Fire |  |  |
+| 215 | **Froakie** | Water |  |  |
+| 216 | **Frogadier** | Water |  |  |
+| 217 | **Riolu** | Fighting |  |  |
+| 218 | **Pichu** | Electric |  |  |
+| 219 | **Gholdengo** | Steel / Ghost |  |  |
+| 220 | **Honedge** | Steel / Ghost |  |  |
+| 221 | **Doublade** | Steel / Ghost |  |  |
+| 222 | **Aegislash** | Steel / Ghost |  |  |
+| 223 | **Hitmontop** | Fighting |  |  |
+| 224 | **Regigigas** | Normal |  |  |
+| 225 | **Porygon-Z** | Normal |  |  |
+| 226 | **Purugly** | Normal |  |  |
+| 227 | **Delcatty** | Normal |  |  |
+| 228 | **Eevee** | Normal |  |  |
+| 229 | **Vaporeon** | Water |  |  |
+| 230 | **Jolteon** | Electric |  |  |
+| 231 | **Flareon** | Fire |  |  |
+| 232 | **Espeon** | Psychic |  |  |
+| 233 | **Umbreon** | Dark |  |  |
+| 234 | **Leafeon** | Grass |  |  |
+| 235 | **Glaceon** | Ice |  |  |
+| 236 | **Sylveon** | Fairy |  |  |
+| 237 | **Pelipper** | Water / Flying |  |  |
+| 238 | **Toxel** | Electric / Poison |  |  |
+| 239 | **Toxtricity** | Electric / Poison | Toxtricity |  |
+| 240 | **Petilil** | Grass |  |  |
+| 241 | **Lilligant** | Grass | Lilligant |  |
+| 242 | **Dedenne** | Electric / Fairy |  |  |
+| 243 | **Frigibax** | Dragon / Ice |  |  |
+| 244 | **Arctibax** | Dragon / Ice |  |  |
+| 245 | **Baxcalibur** | Dragon / Ice |  |  |
 
 </details>
 
@@ -380,17 +383,12 @@ On the Discord server:
   free to use with credit.
 - **Cobblemon Delta** ([discord.gg/cobblemondelta](https://discord.gg/cobblemondelta)): the Mega Blaziken model,
   used with Cobblemon Delta's explicit permission.
-- **Tontra** (Pokemans Pack): the Rayquaza, Mega Rayquaza, Zekrom, Kubfu and Urshifu (both styles) models, used
+- **Tontra** (Pokemans Pack): the Rayquaza, Mega Rayquaza, Zekrom, Kubfu, Urshifu (both styles) and Hoopa (confined and Unbound) models, used
   with the artist's permission.
 - **Presii**: the Mega Venusaur and Mega Sableye models, used with the artist's permission.
 - **Lenka** ([CobbleMotion](https://modrinth.com/resourcepack/cobblemotion)): the animations of many Pokémon (among them
   Sceptile, Scizor, Zoroark, Samurott, Decidueye, Electivire, Empoleon, Toucannon, Greninja, Gengar and
   Tyranitar) and the Bounsweet, Steenee and Tsareena models, used with the artist's permission.
-- **Alexiocraft** (MundialMons): the Mienshao model.
-- **DiEn** (TDmon): the Seismitoad model.
-- **Quinn284**: the Mega Blastoise and Mega Gengar models.
-- **Theeraphat**: the Mega Mewtwo X and Y and Mega Sceptile models.
-- **Horret**: the Mega Greninja model.
 - **Music:** Pokémon arrangements by **The Noble Demon**
   ([youtube.com/@TheNobleDemon](https://www.youtube.com/@TheNobleDemon)), used with credit as permitted by the artist; the
   original compositions are by GAME FREAK's composers.
