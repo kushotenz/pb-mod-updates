@@ -429,6 +429,7 @@ On the Discord server:
 - **Tontra** (Pokemans Pack): the Rayquaza, Mega Rayquaza, Zekrom, Reshiram, Kubfu, Urshifu (both styles) and Hoopa (confined and Unbound) models, used
   with the artist's permission.
 - **Glitchscar**: the Raikou, Entei, Suicune and Hydrapple models, animations and textures, donated to PokeBrawl.
+- **iMystxc** (MysticMons, [modrinth.com/mod/mysticmons](https://modrinth.com/mod/mysticmons)): the Buzzwole model, used with his permission.
 - **Presii**: the Mega Venusaur and Mega Sableye models, used with the artist's permission.
 - **Lenka** ([CobbleMotion](https://modrinth.com/resourcepack/cobblemotion)): the animations of many Pokémon (among them
   Sceptile, Scizor, Zoroark, Samurott, Decidueye, Electivire, Empoleon, Toucannon, Greninja, Gengar and
