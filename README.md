@@ -1,7 +1,7 @@
 # PokeBrawl
 
 **Real-time 3D Pokémon battles**, built in Godot with the models of Cobblemon and the artists credited below.
-287 Pokémon, 46 Mega Evolutions and battle forms, 11 arenas: against the computer, 1 vs 1 online,
+352 Pokémon, 59 Mega Evolutions and battle forms, 13 arenas: against the computer, 1 vs 1 online,
 or a free-for-all for up to 4 players.
 
 PokeBrawl is a free, non-profit fan project. This repository holds the game's builds: the
@@ -50,15 +50,15 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
 
 ## What is in
 
-- **287 Pokémon** (the full list is below), each with its own model, animations, cry and
+- **352 Pokémon** (the full list is below), each with its own model, animations, cry and
   way of moving: speed, jumps, dodges and, for many, flight.
-- **303 moves and 114 abilities** from the games. Pick each Pokémon's four moves and
+- **408 moves and 135 abilities** from the games. Pick each Pokémon's four moves and
   its ability from what it learns; every move shows its power, cooldown, reach and timings.
 - **Mega Evolution:** deal damage to fill the Mega bar, then Mega Evolve once per battle for
-  20 seconds after a 2-second transformation. 46 forms, among them both Charizard and Mewtwo X/Y, the
+  20 seconds after a 2-second transformation. 59 forms, among them both Charizard and Mewtwo X/Y, the
   Legends Z-A Megas (Garchomp Z, Lucario Z, Greninja, Dragonite, Chandelure...) and Mega
   Rayquaza.
-- **Forms picked in the lobby:** 7 forms in all, e.g. Urshifu's two styles and Toxtricity's Amped and Low Key forms.
+- **Forms picked in the lobby:** 14 forms in all, e.g. Urshifu's two styles and Toxtricity's Amped and Low Key forms.
 - **Block & Parry:** hold Block to guard, tap it just before a hit to parry and leave the attacker open.
 - **Languages:** English, Português (Brasil) and Español, picked on the first start.
 - **Teams of three** with switching, a **random team** pick (hidden until the battle), and
@@ -66,7 +66,7 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
 - **Ditto** with its own fifth move, Transform: it becomes an exact copy of its rival.
 - **Modes:** Battle against the computer (easy, normal, hard), Training, **Online 1 vs 1** and
   **Online free-for-all** for up to 4 players.
-- **11 arenas:**
+- **13 arenas:**
   - **Night Stadium:** A Galar stadium at night, packed and walled all round: nobody falls off.
   - **Grand Stadium:** The Night Stadium at almost five times the size, playable right up to the wall: room for big Pokémon and free-for-alls.
   - **Floating Stadium:** A platform over the void. Whoever is pushed off the edge is out.
@@ -77,6 +77,8 @@ Inside the zips: the game (with its music), `CREDITS.txt` and `GODOT-LICENSES.tx
   - **Frostfall Glacier:** A frozen lake under the northern lights. Thin ice creaks and cracks before it breaks: step off it or fall into the freezing water. And now and then a blizzard sweeps in, pushes everyone with the wind and drops icicles.
   - **Mewtwo's Cave:** A crystal cave deep underground, ringed by mossy ledges and glowing crystals, misty water all round. No tricks here, just the fight. And on a rock out in the water, Mewtwo watches with its arms folded.
   - **Seashell Cove:** A sunny beach in a tropical cove: firm sand fenced by a rope, palm trees, a pier and soft waves rolling in. No tricks, no hazards: just the fight. Keep an eye on the waterline, someone lives there.
+  - **Sandveil Ruins:** Old sandstone ruins in a sunny desert: a paved courtyard half buried in sand, broken pillars and an oasis with palms behind the wall. Now and then a sandstorm gust sweeps through and pushes everyone along: the sand starts streaming first, so you see it coming.
+  - **Lumière Plaza:** A city plaza at dusk: cobblestones inside a stone balustrade, cafés with string lights, a fountain and a tall tower glowing over the roofs. No tricks, no hazards: just the fight.
   - **Starfall Altar:** A round altar of black stone adrift among the stars, a silver Poké Ball engraved in its floor. No tricks, no hazards: just the fight. Whoever goes over the edge is out.
 - **Status conditions** as in the games, adapted to real time (burn, paralysis, poison, bad
   poison, sleep, freeze), confusion, stat changes and **weather** (sun, rain, sandstorm, snow),
@@ -106,7 +108,7 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 ## The roster
 
 <details>
-<summary><b>All 287 Pokémon</b>, with their forms and Mega Evolutions (click to open)</summary>
+<summary><b>All 352 Pokémon</b>, with their forms and Mega Evolutions (click to open)</summary>
 
 | # | Pokémon | Types | Forms (picked in the lobby) | Mega Evolution / battle forms |
 |---|---|---|---|---|
@@ -120,7 +122,7 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 8 | **Garchomp** | Dragon / Ground |  | Mega Garchomp, Mega Garchomp Z |
 | 9 | **Greninja** | Water / Dark |  | Mega Greninja |
 | 10 | **Scizor** | Bug / Steel |  | Mega Scizor |
-| 11 | **Arcanine** | Fire |  |  |
+| 11 | **Arcanine** | Fire | Arcanine |  |
 | 12 | **Alakazam** | Psychic |  | Mega Alakazam |
 | 13 | **Bellsprout** | Grass / Poison |  |  |
 | 14 | **Dragonite** | Dragon / Flying |  | Mega Dragonite |
@@ -193,7 +195,7 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 81 | **Gabite** | Dragon / Ground |  |  |
 | 82 | **Gible** | Dragon / Ground |  |  |
 | 83 | **Scyther** | Bug / Flying |  |  |
-| 84 | **Growlithe** | Fire |  |  |
+| 84 | **Growlithe** | Fire | Growlithe |  |
 | 85 | **Kadabra** | Psychic |  |  |
 | 86 | **Abra** | Psychic |  |  |
 | 87 | **Dragonair** | Dragon |  |  |
@@ -397,6 +399,71 @@ Every key can be changed in *Options*, also during a battle from the pause menu.
 | 285 | **Raikou** | Electric |  |  |
 | 286 | **Entei** | Fire |  |  |
 | 287 | **Suicune** | Water |  |  |
+| 288 | **Lileep** | Rock / Grass |  |  |
+| 289 | **Cradily** | Rock / Grass |  |  |
+| 290 | **Houndour** | Dark / Fire |  |  |
+| 291 | **Houndoom** | Dark / Fire |  | Mega Houndoom |
+| 292 | **Absol** | Dark |  | Mega Absol |
+| 293 | **Shinx** | Electric |  |  |
+| 294 | **Luxio** | Electric |  |  |
+| 295 | **Luxray** | Electric |  |  |
+| 296 | **Pinsir** | Bug |  | Mega Pinsir |
+| 297 | **Dunsparce** | Normal |  |  |
+| 298 | **Dudunsparce** | Normal |  |  |
+| 299 | **Mawile** | Steel / Fairy |  | Mega Mawile |
+| 300 | **Kabuto** | Rock / Water |  |  |
+| 301 | **Kabutops** | Rock / Water |  |  |
+| 302 | **Anorith** | Rock / Bug |  |  |
+| 303 | **Armaldo** | Rock / Bug |  |  |
+| 304 | **Omanyte** | Rock / Water |  |  |
+| 305 | **Omastar** | Rock / Water |  |  |
+| 306 | **Yanma** | Bug / Flying |  |  |
+| 307 | **Yanmega** | Bug / Flying |  |  |
+| 308 | **Shuckle** | Bug / Rock |  |  |
+| 309 | **Diancie** | Rock / Fairy |  | Mega Diancie |
+| 310 | **Cranidos** | Rock |  |  |
+| 311 | **Rampardos** | Rock |  |  |
+| 312 | **Mudkip** | Water |  |  |
+| 313 | **Marshtomp** | Water / Ground |  |  |
+| 314 | **Swampert** | Water / Ground |  | Mega Swampert |
+| 315 | **Buzzwole** | Bug / Fighting |  |  |
+| 316 | **Golett** | Ground / Ghost |  |  |
+| 317 | **Golurk** | Ground / Ghost |  | Mega Golurk |
+| 318 | **Scraggy** | Dark / Fighting |  |  |
+| 319 | **Scrafty** | Dark / Fighting |  | Mega Scrafty |
+| 320 | **Slowpoke** | Water / Psychic | Slowpoke |  |
+| 321 | **Slowbro** | Water / Psychic | Slowbro | Mega Slowbro |
+| 322 | **Slowking** | Water / Psychic | Slowking |  |
+| 323 | **Lapras** | Water / Ice |  |  |
+| 324 | **Vulpix** | Fire | Vulpix |  |
+| 325 | **Ninetales** | Fire | Ninetales |  |
+| 326 | **Pheromosa** | Bug / Fighting |  |  |
+| 327 | **Paras** | Bug / Grass |  |  |
+| 328 | **Parasect** | Bug / Grass |  |  |
+| 329 | **Glimmet** | Rock / Poison |  |  |
+| 330 | **Glimmora** | Rock / Poison |  | Mega Glimmora |
+| 331 | **Dreepy** | Dragon / Ghost |  |  |
+| 332 | **Drakloak** | Dragon / Ghost |  |  |
+| 333 | **Dragapult** | Dragon / Ghost |  |  |
+| 334 | **Skarmory** | Steel / Flying |  | Mega Skarmory |
+| 335 | **Litten** | Fire |  |  |
+| 336 | **Torracat** | Fire |  |  |
+| 337 | **Incineroar** | Fire / Dark |  |  |
+| 338 | **Falinks** | Fighting |  | Mega Falinks |
+| 339 | **Dwebble** | Bug / Rock |  |  |
+| 340 | **Crustle** | Bug / Rock |  |  |
+| 341 | **Tandemaus** | Normal |  |  |
+| 342 | **Maushold** | Normal |  |  |
+| 343 | **Kangaskhan** | Normal |  | Mega Kangaskhan |
+| 344 | **Stonjourner** | Rock |  |  |
+| 345 | **Farfetch'd** | Fighting |  |  |
+| 346 | **Sirfetch'd** | Fighting |  |  |
+| 347 | **Celebi** | Psychic / Grass |  |  |
+| 348 | **Klink** | Steel |  |  |
+| 349 | **Klang** | Steel |  |  |
+| 350 | **Klinklang** | Steel |  |  |
+| 351 | **Meltan** | Steel |  |  |
+| 352 | **Melmetal** | Steel |  |  |
 
 </details>
 
@@ -420,7 +487,7 @@ On the Discord server:
   models, animations and textures (CC BY-NC 3.0, adapted), move effects, sounds, cries and
   battle UI pieces (MPL 2.0), and species data.
 - **RedRibbonz** ([modrinth.com/user/RedRibbonz](https://modrinth.com/user/RedRibbonz)), from her MissingMons add-on:
-  the Marshadow, Jirachi, Blacephalon, Poipole and Naganadel models, used with the artist's permission.
+  the Marshadow, Jirachi, Blacephalon, Poipole, Naganadel, Celebi, Meltan and Melmetal models, used with the artist's permission.
 - **sanji1**: the Mega Charizard X and Y, Aerodactyl, Alakazam, Gallade, Garchomp, Gardevoir, Gyarados,
   Lopunny, Metagross, Salamence, Sharpedo, Tyranitar, Beedrill, Ampharos and Steelix models and Latios with its Mega,
   free to use with credit.
@@ -429,11 +496,11 @@ On the Discord server:
 - **Tontra** (Pokemans Pack): the Rayquaza, Mega Rayquaza, Zekrom, Reshiram, Kubfu, Urshifu (both styles) and Hoopa (confined and Unbound) models, used
   with the artist's permission.
 - **Glitchscar**: the Raikou, Entei, Suicune and Hydrapple models, animations and textures, donated to PokeBrawl.
-- **iMystxc** (MysticMons, [modrinth.com/mod/mysticmons](https://modrinth.com/mod/mysticmons)): the Buzzwole model, used with his permission.
+- **MysticMons** (modrinth.com/mod/mysticmons, MIT): the Buzzwole and Pheromosa models, used with iMystxc's permission.
 - **Presii**: the Mega Venusaur and Mega Sableye models, used with the artist's permission.
 - **Lenka** ([CobbleMotion](https://modrinth.com/resourcepack/cobblemotion)): the animations of many Pokémon (among them
   Sceptile, Scizor, Zoroark, Samurott, Decidueye, Electivire, Empoleon, Toucannon, Greninja, Gengar and
-  Tyranitar, Spheal, Sealeo, Walrein, Lairon, Aggron and Quagsire) and the Bounsweet, Steenee and Tsareena models, used with the artist's permission.
+  Tyranitar, Spheal, Sealeo, Walrein, Lairon, Aggron, Quagsire, Incineroar, Scrafty, Ninetales and Sirfetch'd) and the Bounsweet, Steenee and Tsareena models, used with the artist's permission.
 - **Music:** Pokémon arrangements by **The Noble Demon**
   ([youtube.com/@TheNobleDemon](https://www.youtube.com/@TheNobleDemon)), used with credit as permitted by the artist; the
   original compositions are by GAME FREAK's composers.
